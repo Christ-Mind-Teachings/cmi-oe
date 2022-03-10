@@ -1,5 +1,6 @@
 /* eslint no-console: off */
 import {storeInit} from "www/modules/_util/store";
+import {showQuotes, showSearch} from "www/modules/_util/url";
 
 //common modules
 import auth from "www/modules/_user/netlify";
@@ -31,6 +32,12 @@ $(document).ready(() => {
   //support for quote display and sharing
   initQuoteDisplay("#show-quote-button", constants);
   initAnimation();
+
+  //look for ?search=1 on url, if found display search dialog
+  showSearch();
+
+  //look for ?quotes=1 on url, if found display quote dialog
+  showQuotes();
 
 });
 

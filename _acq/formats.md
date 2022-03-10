@@ -13,7 +13,7 @@ target="_blank">here</a> and as ebooks in epub, pdf, and kindle formats
 
 A reading of the *Original Edition* by Kellie Love, the original voice
 of the Course, is available <a
-href="https://www.jcim.net/love-productions-acim-audio-book/"
+href="https://www.jcim.net/acim-audiobooks-narrated-by-kellie-love/"
 target="_blank">here.</a>
 
 A reading of the *Original Edition* by Martin Weber-Caspers is available
