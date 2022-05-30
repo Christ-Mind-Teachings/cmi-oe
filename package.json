@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1145.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "clipboard": "^2.0.4",
     "dom-anchor-text-quote": "^4.0.2",
     "driver.js": "^0.9.5",
