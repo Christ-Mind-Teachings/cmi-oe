@@ -10,6 +10,10 @@ function getUnitName(pageInfo, unitInfo) {
   return pageInfo[unitInfo.pageKey].title;
 }
 
+/*
+  <a href="/t${pageInfo[m.pageKey].url}?srch=${h.location}">Paragraph ${h.location.substr(1)}</a>
+  For "header" section, use h.ref to use ACIM OE paragraph number instead of CMI pnum
+*/
 function makeList(bid, title, pageInfo, matchArray) {
   return `
     <h3>${title[bid]} (${matchArray.length})</h3>
@@ -27,7 +31,7 @@ function makeList(bid, title, pageInfo, matchArray) {
                   <i class="search icon"></i>
                   <div class="content">
                     <div class="header">
-                      <a href="/t${pageInfo[m.pageKey].url}?srch=${h.location}">Paragraph ${h.location.substr(1)}</a>
+                      <a href="/t${pageInfo[m.pageKey].url}?srch=${h.location}">Paragraph ${h.ref}</a>
                     </div>
                     <div class="description">
                       ${h.context}
@@ -57,7 +61,7 @@ function munge(bookMatches) {
         unit: match.unit,
         book: match.book,
         pageKey: match.key.substr(0, keyLength),
-        m: [{location: match.location, context: match.context}]
+        m: [{ref: match.ref, location: match.location, context: match.context}]
       };
     }
     else if (combined[count].unit !== match.unit) {
@@ -66,17 +70,17 @@ function munge(bookMatches) {
         unit: match.unit,
         book: match.book,
         pageKey: match.key.substr(0, keyLength),
-        m: [{location: match.location, context: match.context}]
+        m: [{ref: match.ref, location: match.location, context: match.context}]
       };
     }
     else {
-      combined[count].m.push({location: match.location, context: match.context});
+      combined[count].m.push({ref: match.ref, location: match.location, context: match.context});
     }
   }
   return combined;
 }
 
-//get unique pageKeys from query results and 
+//get unique pageKeys from query results and
 function getPageKeys(data) {
   let keyLength = keyInfo.getKeyInfo().keyLength;
   let keys = data.map(m => m.key.substr(0, keyLength));

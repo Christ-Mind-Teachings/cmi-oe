@@ -31,6 +31,21 @@ function discardParagraph(p) {
   return 0
 }
 
+#
+# Return OE paragraph number from paragraph. The number is assigned
+# by CIMS and is enclosed by <sup>###</sup>
+# 
+# Paragraphs without <sup>###</sup> are paragraph 1
+#
+function extractParaNum(p) {
+  if (n = match(p,/<sup>([0-9]+)/, a) == 0) {
+    return "1"
+  }
+
+  return substr(p, a[1,"start"], a[1,"length"])
+}
+
+
 BEGIN {
   i = 0
   p = 0
@@ -91,9 +106,13 @@ $1 ~ /##/ {
     if (len == 1) {
       discard = discardParagraph(lines[0])
     }
+    ref = extractParaNum(lines[0])
+
     printf "  %s{\n", needComma == "y" ? "," : ""
     printf "    \"discard\": %u,\n", discard
     printf "    \"pid\": %s,\n", p
+    printf "    \"ref\": %s,\n", ref
+
     for (line in lines) {
       raw = lines[line]
       # remove html elements

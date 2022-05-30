@@ -23,7 +23,10 @@ $(document).ready(() => {
 
   setLanguage(constants);
   bookmarkStart("page");
-  search.initialize();
+
+  // "oe" uses ACIM OE Paragraph numbers in search results
+  // "acimoe" uses CMI Paragraph numbers in search results
+  search.initialize("oe");
   auth.initialize();
   fb.initialize();
   toc.initialize("page");

@@ -77,9 +77,9 @@ function displaySearchMessage(msgId, arg1, arg2, arg3) {
 }
 
 //run query
-async function search(query) {
+async function search(query, source) {
   let searchBody = {
-    source: "acimoe",
+    source: source,
     query: query,
     width: 30
   };
@@ -112,7 +112,7 @@ function initTranscriptPage() {
   Initialize support for search modal window available
   on all pages
 */
-function initSearchModal() {
+function initSearchModal(source) {
 
   $(uiSearchModal).modal({
     dimmerSettings: {opacity: uiModalOpacity},
@@ -147,20 +147,20 @@ function initSearchModal() {
     displaySearchMessage(SEARCHING, searchSource, searchString);
 
     //run search
-    search(searchString);
+    search(searchString, source);
   });
 
 }
 
 export default {
-  initialize: function() {
+  initialize: function(source = "acimoe") {
 
     if ($(".transcript").length) {
       //this is a transcript page
       initTranscriptPage();
     }
 
-    initSearchModal();
+    initSearchModal(source);
   }
 };
 

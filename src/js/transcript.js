@@ -28,7 +28,11 @@ $(document).ready(() => {
 
   //load config file and do initializations that depend on a loaded config file
   loadConfig(getBookId()).then(() => {
-    search.initialize();
+
+    // "oe" uses ACIM OE Paragraph numbers in search results
+    // "acimoe" uses CMI Paragraph numbers in search results
+    search.initialize("oe");
+
     toc.initialize("transcript");
     audio.initialize();
     showParagraph();
