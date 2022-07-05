@@ -44,10 +44,12 @@
   </button>
 
   <button id="bookmark-dropdown-menu" class="requires-signin hide ui dropdown button">
-    <i class="icons">
-      <i class="bookmark-icon green bookmark icon"></i>
-      <i class="bookmark-corner-icon hide corner close icon"></i>
-    </i>
+    <span>
+      <i class="icons">
+        <i class="bookmark-icon green bookmark icon"></i>
+        <i class="bookmark-corner-icon hide corner close icon"></i>
+      </i>
+    </span>
     <div class="menu">
       <div id="bookmark-modal-open" class="bookmark-modal-open item">Show Bookmarks</div>
       <div id="bookmark-toggle-disable-selection" class="toggle-bookmark-selection item">Disable Bookmark Creation</div>
@@ -62,10 +64,12 @@
 
   {% unless page.pnumToggle == false %}
   <button id="pnum-toggle-menu-option" class="toggle-paragraph-markers button ui">
-    <i class="icons">
-      <i class="paragraph icon"></i>
-      <i class="paragraph-corner-icon hide corner close icon"></i>
-    </i>
+    <span>
+      <i class="icons">
+        <i class="paragraph icon"></i>
+        <i class="paragraph-corner-icon hide corner close icon"></i>
+      </i>
+    </span>
   </button>
   {% endunless %}
 
