@@ -1,13 +1,14 @@
 /* eslint no-console: off */
-import {storeInit} from "www/modules/_util/store";
+import {SourceStore, storeInit} from "www/modules/_util/store";
 import {showQuotes, showSearch} from "www/modules/_util/url";
+import search from "www/modules/_search/search";
 
 //common modules
 import auth from "www/modules/_user/netlify";
 import {initStickyMenu, initAnimation} from "www/modules/_page/startup";
 
 import {bookmarkStart} from "./modules/_bookmark/start";
-import search from "./modules/_search/search";
+import {searchInit} from "./modules/_search/search";
 import toc from "./modules/_contents/toc";
 import about from "./modules/_about/about";
 
@@ -18,16 +19,17 @@ import {setLanguage} from "www/modules/_language/lang";
 import constants from "./constants";
 
 $(document).ready(() => {
+  const store = new SourceStore(constants);
   storeInit(constants);
   initStickyMenu();
 
   setLanguage(constants);
+  auth.initialize();
   bookmarkStart("page");
 
   // "oe" uses ACIM OE Paragraph numbers in search results
   // "acimoe" uses CMI Paragraph numbers in search results
-  search.initialize("oe");
-  auth.initialize();
+  search.initialize(searchInit(store));
   fb.initialize();
   toc.initialize("page");
   about.initialize();
