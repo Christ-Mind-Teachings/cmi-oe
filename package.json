@@ -36,23 +36,13 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.1145.0",
     "axios": "^0.19.2",
-    "clipboard": "^2.0.4",
-    "dom-anchor-text-quote": "^4.0.2",
     "driver.js": "^0.9.5",
-    "gsap": "^2.1.2",
-    "hotkeys-js": "^3.7.6",
-    "jquery": "^3.3.1",
     "lodash": "^4.17.11",
-    "md5": "^2.2.1",
     "mediaelement": "^4.2.16",
-    "netlify-identity-widget": "^1.5.2",
     "scroll-into-view": "^1.9.5",
     "sprintf-js": "^1.1.2",
     "store": "^2.0.12",
-    "toastr": "^2.1.4",
-    "uuid": "^7.0.3",
-    "wrap-range-text": "^1.0.1"
+    "toastr": "^2.1.4"
   }
 }
