@@ -1,7 +1,7 @@
 //import {fetchConfiguration} from "www/modules/_util/cmi";
-import {fetchConfiguration} from "www/modules/_ajax/config";
-import {storeSet, storeGet} from "www/modules/_util/store";
-import axios from "axios";
+import {fetchConfiguration} from "common/modules/_ajax/config";
+import {storeSet, storeGet} from "common/modules/_util/store";
+
 import {status} from "./status";
 import { getIndexFromLesson } from "./wbkey";
 
@@ -11,31 +11,14 @@ const AWS_BUCKET = "assets.christmind.info";
 const SOURCE_ID = "oe";
 const SOURCE = "ACIM Original Edition";
 
-//mp3 and audio timing base directories
+//where mp3's are found
 const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-const timingBase = "/t/acimoe/public/timing";
 
 //location of configuration files
 const configUrl = "/t/acimoe/public/config";
 
 //the current configuration, initially null, assigned by getConfig()
 let config;
-
-/*
-  Fetch audio timing data
-*/
-export function fetchTimingData(url) {
-  return new Promise((resolve, reject) => {
-    axios.get(`${timingBase}${url}`)
-      .then((response) => {
-        resolve(response.data);
-      })
-      .catch((error) => {
-        reject(error);
-      });
-  });
-}
-
 
 /**
  * Get the configuration file for 'book'. If it's not found in
