@@ -2,39 +2,28 @@
 
 //common modules
 import {SourceStore, storeInit} from "common/modules/_util/store";
+import {initHomePage} from "common/modules/_page/startup";
 import {showTOC, showQuotes, showSearch} from "common/modules/_util/url";
 import search from "common/modules/_search/search";
-import auth from "common/modules/_user/netlify";
-import {initStickyMenu, initAnimation} from "common/modules/_page/startup";
-import fb from "common/modules/_util/facebook";
 import {initQuoteDisplay} from "common/modules/_topics/events";
-//import {setLanguage} from "common/modules/_language/lang";
 
-import {bookmarkStart} from "./modules/_bookmark/start";
-import {searchInit} from "./modules/_search/search";
+import {setEnv} from "./modules/_config/config";
+import {pageDriver} from "./modules/_util/driver";
 import toc from "./modules/_contents/toc";
-import about from "./modules/_about/about";
 import constants from "./constants";
 
 $(document).ready(() => {
   const store = new SourceStore(constants);
   storeInit(constants);
-  initStickyMenu();
 
-  //setLanguage(constants);
-  auth.initialize();
-  bookmarkStart("page", store);
+  setEnv(store);
 
-  // "oe" uses ACIM OE Paragraph numbers in search results
-  // "acimoe" uses CMI Paragraph numbers in search results
-  search.initialize(searchInit(store));
-  fb.initialize();
+  initHomePage(store, pageDriver);
   toc.initialize("page");
-  about.initialize();
+  search.initialize(store);
 
   //support for quote display and sharing
   initQuoteDisplay("#show-quote-button", store);
-  initAnimation();
 
   //look for ?tocbook=[acq | text | workbook | manual]
   showTOC();

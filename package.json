@@ -4,7 +4,7 @@
   "description": "Teachings of Christ Mind: ACIM Original Edition",
   "scripts": {
     "base:dev:webpack": "webpack --mode development",
-    "base:dev:jekyll": "JEKYLL_ENV=development bundle exec jekyll build",
+    "base:dev:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
     "base:prod:webpack": "webpack --mode production",
     "base:prod:jekyll": "JEKYLL_ENV=production bundle exec jekyll build --config ./_config.prod.yml",
     "watch": "webpack --mode development --watch",

@@ -14,6 +14,7 @@ export default {
   env: "integration",
   title: "ACIM Original Edition",
   url_prefix: `${HOME_URI}`,
+  configUrl: `${HOME_URI}/public/config`,
   sourceId: 15,
   quoteManagerId: "05399539cca9ac38db6db36f5c770ff1",
   quoteManagerName: "CMI",

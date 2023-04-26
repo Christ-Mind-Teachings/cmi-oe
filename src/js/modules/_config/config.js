@@ -1,24 +1,12 @@
 //import {fetchConfiguration} from "www/modules/_util/cmi";
 import {fetchConfiguration} from "common/modules/_ajax/config";
-import {storeSet, storeGet} from "common/modules/_util/store";
 
 import {status} from "./status";
 import { getIndexFromLesson } from "./wbkey";
-
 const transcript = require("./key");
 
-const AWS_BUCKET = "assets.christmind.info";
-const SOURCE_ID = "oe";
-const SOURCE = "ACIM Original Edition";
-
-//where mp3's are found
-const audioBase = `https://s3.amazonaws.com/${AWS_BUCKET}/${SOURCE_ID}/audio`;
-
-//location of configuration files
-const configUrl = "/t/acimoe/public/config";
-
-//the current configuration, initially null, assigned by getConfig()
-let config;
+let g_sourceInfo;
+let config; //the current configuration, initially null, assigned by getConfig()
 
 /**
  * Get the configuration file for 'book'. If it's not found in
@@ -31,7 +19,7 @@ let config;
  */
 export function getConfig(book, assign = true) {
   let lsKey = `cfg${book}`;
-  let url = `${configUrl}/${book}.json`;
+  let url = `${g_sourceInfo.configUrl}/${book}.json`;
 
   return new Promise((resolve, reject) => {
     fetchConfiguration(url, lsKey, status).then((resp) => {
@@ -55,7 +43,7 @@ export function getConfig(book, assign = true) {
  */
 export function loadConfig(book) {
   let lsKey = `cfg${book}`;
-  let url = `${configUrl}/${book}.json`;
+  let url = `${g_sourceInfo.configUrl}/${book}.json`;
 
   //"book" is a single page, no configuration
   if (!book) {
@@ -145,7 +133,7 @@ export function getAudioInfo(url) {
       break;
   }
 
-  audioInfo.audioBase = audioBase;
+  audioInfo.audioBase = g_sourceInfo.audioBase;
   return audioInfo;
 }
 
@@ -203,7 +191,7 @@ function flatten(data) {
 */
 export function getPageInfo(pageKey, data = false) {
   let decodedKey = transcript.decodeKey(pageKey);
-  let info = {pageKey: pageKey, source: SOURCE, bookId: decodedKey.bookId};
+  let info = {pageKey: pageKey, source: g_sourceInfo.title, bookId: decodedKey.bookId};
 
   if (data) {
     info.data = data;
@@ -259,34 +247,34 @@ export function getPageInfo(pageKey, data = false) {
           switch(decodedKey.bookId) {
             case "manual":
               info.title = data.contents[decodedKey.uid - 1].title;
-              info.url = `/acimoe/${decodedKey.bookId}${data.contents[decodedKey.uid - 1].url}`;
+              info.url = `/t/acimoe/${decodedKey.bookId}${data.contents[decodedKey.uid - 1].url}`;
               break;
             case "workbook":
-              flat = storeGet(flat_store_id);
+              flat = g_sourceInfo.getValue(flat_store_id);
               if (!flat) {
                 flat = flatten(data);
-                storeSet(flat_store_id, flat);
+                g_sourceInfo.setValue(flat_store_id, flat);
               }
               unit = flat[decodedKey.uid - 1];
 
               info.title = `${unit.lesson?unit.lesson + ". ":""}${unit.title}`;
-              info.url = `/acimoe/${decodedKey.bookId}/${unit.url}`;
+              info.url = `/t/acimoe/${decodedKey.bookId}/${unit.url}`;
               break;
             case "text":
-              flat = storeGet(flat_store_id);
+              flat = g_sourceInfo.getValue(flat_store_id);
               if (!flat) {
                 flat = flatten(data);
-                storeSet(flat_store_id, flat);
+                g_sourceInfo.setValue(flat_store_id, flat);
               }
               unit = flat[decodedKey.uid - 1];
               chapter = unit.url.substr(4,2);
 
               info.title = `${unit.title}`;
-              info.url = `/acimoe/${decodedKey.bookId}/${chapter}/${unit.url}`;
+              info.url = `/t/acimoe/${decodedKey.bookId}/${chapter}/${unit.url}`;
               break;
             case "acq":
               info.title = data.contents[decodedKey.uid-1].title;
-              info.url = `/acimoe/${decodedKey.bookId}${data.contents[decodedKey.uid-1].url}`;
+              info.url = `/t/acimoe/${decodedKey.bookId}${data.contents[decodedKey.uid-1].url}`;
               break;
             default:
               throw new Error(`getPageInfo(): unknown bookId ${decodedKey.bookId}`);
@@ -301,3 +289,11 @@ export function getPageInfo(pageKey, data = false) {
   });
 
 }
+
+/*
+ * Set environment to standalone or integrated
+ */
+export function setEnv(si) {
+  g_sourceInfo = si;
+}
+
