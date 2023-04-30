@@ -1,7 +1,6 @@
-<!-- _includes/common/transcript-menu.html -->
+<!-- _includes/common/transcript-menu-mobile.html -->
 
 <div id="transcript-top-bar" class="ui buttons large">
-
 
   {% unless page.restricted-menu %}
   <a id="toc-previous-page" href="#" class="ui icon button toc-previous-page">
@@ -15,7 +14,6 @@
     <i class="right chevron icon"></i>
   </a>
   {% endunless %}
-
 
   <button id="search-modal-open" class="ui right icon button search-modal-open">
     <i class="search icon"></i>
@@ -75,11 +73,12 @@
 
   <a id="jump-to-top-menu-option" href="#masthead-title" class="top-of-page button ui">
     <i class="level up icon"></i>
+    {% comment %}
     Top
+    {% endcomment %}
   </a>
 
   {% include common/quick-link-menu-mobile.html name="acimoe" %}
-
 
   <button id="about-dropdown-menu" class="dropdown button ui">
     <i class="question icon"></i>
