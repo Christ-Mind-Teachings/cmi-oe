@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Teachings of Christ Mind: ACIM Original Edition",
   "scripts": {
+    "updateStatus": "../cmi-common/bin/updateStatus",
+    "setConfiguration": "../cmi-common/bin/setConfiguration",
     "base:dev:webpack": "webpack --mode development",
     "base:dev:jekyll": "JEKYLL_ENV=development bundle exec jekyll build --config ./_config.prod.yml",
     "base:prod:webpack": "webpack --mode production",

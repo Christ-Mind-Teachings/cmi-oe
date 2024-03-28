@@ -5,17 +5,17 @@ import search from "common/modules/_search/search";
 import {showParagraph} from "common/modules/_util/url";
 import {initTranscriptPage} from "common/modules/_page/startup";
 import audio from "common/modules/_audio/audio";
-
-import {setEnv, loadConfig} from "./modules/_config/config";
-import toc, {getBookId} from "./modules/_contents/toc";
+import {setEnv, loadConfig} from "common/modules/_config/config";
+import toc, {getBookId} from "common/modules/_contents/toc";
 
 import constants from "./constants";
+import {status} from "./modules/_config/status";
 
 $(document).ready(() => {
   const store = new SourceStore(constants);
   storeInit(constants);
 
-  setEnv(store);
+  setEnv(store, status);
 
   //load config file and do initializations that depend on a loaded config file
   loadConfig(getBookId()).then(() => {
@@ -26,7 +26,7 @@ $(document).ready(() => {
     //search.initialize("oe");
     search.initialize(store);
 
-    toc.initialize("transcript");
+    toc.initialize(store, "transcript");
     audio.initialize(store);
     showParagraph();
   }).catch((error) => {

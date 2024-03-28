@@ -3,94 +3,95 @@
   "base": "/t/acimoe/manual",
   "image": "/t/acimoe/public/img/acim/manual-toc.jpg",
   "title": "Manual for Teachers",
+  "toc": "relaxed list",
   "contents": [
     {
       "title": "Introduction",
-      "url": "/intro/",
+      "url": "/t/acimoe/manual/intro/",
       "audio": "/manual/intro.mp3",
       "timing": "/manual/intro.json",
       "timer": "msullivan2k@gmail.com"
     },
     {
       "title": "Who Are God's Teachers?",
-      "url": "/chap01/",
+      "url": "/t/acimoe/manual/chap01/",
       "audio": "/manual/chap01.mp3",
       "timing": "/manual/chap01.json",
       "timer": "msullivan2k@gmail.com"
     },
     {
       "title": "Who are their Pupils?",
-      "url": "/chap02/",
+      "url": "/t/acimoe/manual/chap02/",
       "audio": "/manual/chap02.mp3",
       "timing": "/manual/chap02.json",
       "timer": "msullivan2k@gmail.com"
     },
     {
       "title": "What are the Levels of Teaching?",
-      "url": "/chap03/",
+      "url": "/t/acimoe/manual/chap03/",
       "audio": "/manual/chap03.mp3",
       "timing": "/manual/chap03.json",
       "timer": "msullivan2k@gmail.com"
     },
     {
       "title": "What are the Characteristics of God's Teachers?",
-      "url": "/chap04/",
+      "url": "/t/acimoe/manual/chap04/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap04.json",
       "audio": "/manual/chap04.mp3"
     },
     {
       "title": "How is Healing Accomplished?",
-      "url": "/chap05/",
+      "url": "/t/acimoe/manual/chap05/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap05.json",
       "audio": "/manual/chap05.mp3"
     },
     {
       "title": "Is Healing Certain?",
-      "url": "/chap06/",
+      "url": "/t/acimoe/manual/chap06/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap06.json",
       "audio": "/manual/chap06.mp3"
     },
     {
       "title": "Should Healing be Repeated?",
-      "url": "/chap07/",
+      "url": "/t/acimoe/manual/chap07/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap07.json",
       "audio": "/manual/chap07.mp3"
     },
     {
       "title": "How Can the Perception of Order of Difficulties be Avoided?",
-      "url": "/chap08/",
+      "url": "/t/acimoe/manual/chap08/",
       "timing": "/manual/chap08.json",
       "timer": "msullivan2k@gmail.com",
       "audio": "/manual/chap08.mp3"
     },
     {
       "title": "Are Changes Required in the Life Situation of God's Teachers?",
-      "url": "/chap09/",
+      "url": "/t/acimoe/manual/chap09/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap09.json",
       "audio": "/manual/chap09.mp3"
     },
     {
       "title": "How is Judgement Relinquished?",
-      "url": "/chap10/",
+      "url": "/t/acimoe/manual/chap10/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap10.json",
       "audio": "/manual/chap10.mp3"
     },
     {
       "title": "How is Peace Possible in this World?",
-      "url": "/chap11/",
+      "url": "/t/acimoe/manual/chap11/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap11.json",
       "audio": "/manual/chap11.mp3"
     },
     {
       "title": "How Many Teachers of God are Needed to Save the World?",
-      "url": "/chap12/",
+      "url": "/t/acimoe/manual/chap12/",
       "timer": "msullivan2k@gmail.com",
       "timing": "/manual/chap12.json",
       "audio": "/manual/chap12.mp3"
@@ -98,56 +99,56 @@
     {
       "title": "What is the Real Meaning of Sacrifice?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap13/",
+      "url": "/t/acimoe/manual/chap13/",
       "audio": "/manual/chap13.mp3",
       "timing": "/manual/chap13.json"
     },
     {
       "title": "How Will the World End?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap14/",
+      "url": "/t/acimoe/manual/chap14/",
       "audio": "/manual/chap14.mp3",
       "timing": "/manual/chap14.json"
     },
     {
       "title": "Is Each One to be Judged in the End?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap15/",
+      "url": "/t/acimoe/manual/chap15/",
       "timing": "/manual/chap15.json",
       "audio": "/manual/chap15.mp3"
     },
     {
       "title": "How Should the Teacher of God Spend His Day?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap16/",
+      "url": "/t/acimoe/manual/chap16/",
       "timing": "/manual/chap16.json",
       "audio": "/manual/chap16.mp3"
     },
     {
       "title": "How do God's Teachers Deal with their Pupils' Thoughts of Magic?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap17/",
+      "url": "/t/acimoe/manual/chap17/",
       "timing": "/manual/chap17.json",
       "audio": "/manual/chap17.mp3"
     },
     {
       "title": "How is Correction Made?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap18/",
+      "url": "/t/acimoe/manual/chap18/",
       "timing": "/manual/chap18.json",
       "audio": "/manual/chap18.mp3"
     },
     {
       "title": "What is Justice?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap19/",
+      "url": "/t/acimoe/manual/chap19/",
       "timing": "/manual/chap19.json",
       "audio": "/manual/chap19.mp3"
     },
     {
       "title": "What is the Peace of God?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap20/",
+      "url": "/t/acimoe/manual/chap20/",
       "timing": "/manual/chap20.json",
       "audio": "/manual/chap20.mp3"
     },
@@ -155,41 +156,41 @@
       "title": "What is the Role of Words in Healing?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap21.json",
-      "url": "/chap21/",
+      "url": "/t/acimoe/manual/chap21/",
       "audio": "/manual/chap21.mp3"
     },
     {
       "title": "How are Healing and Atonement Related?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap22.json",
-      "url": "/chap22/",
+      "url": "/t/acimoe/manual/chap22/",
       "audio": "/manual/chap22.mp3"
     },
     {
       "title": "Does Jesus Have a Special Place in Healing?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap23.json",
-      "url": "/chap23/",
+      "url": "/t/acimoe/manual/chap23/",
       "audio": "/manual/chap23.mp3"
     },
     {
       "title": "Is Reincarnation True?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap24.json",
-      "url": "/chap24/",
+      "url": "/t/acimoe/manual/chap24/",
       "audio": "/manual/chap24.mp3"
     },
     {
       "title": "Are 'Phychic' Powers Desirable?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap25.json",
-      "url": "/chap25/",
+      "url": "/t/acimoe/manual/chap25/",
       "audio": "/manual/chap25.mp3"
     },
     {
       "title": "Can God be Reached Directly?",
       "timer": "onemillionchrists@gmail.com",
-      "url": "/chap26/",
+      "url": "/t/acimoe/manual/chap26/",
       "timing": "/manual/chap26.json",
       "audio": "/manual/chap26.mp3"
     },
@@ -197,21 +198,21 @@
       "title": "What is Death?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap27.json",
-      "url": "/chap27/",
+      "url": "/t/acimoe/manual/chap27/",
       "audio": "/manual/chap27.mp3"
     },
     {
       "title": "What is the Resurrection?",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap28.json",
-      "url": "/chap28/",
+      "url": "/t/acimoe/manual/chap28/",
       "audio": "/manual/chap28.mp3"
     },
     {
       "title": "As for the Rest&hellip;",
       "timer": "onemillionchrists@gmail.com",
       "timing": "/manual/chap29.json",
-      "url": "/chap29/",
+      "url": "/t/acimoe/manual/chap29/",
       "audio": "/manual/chap29.mp3"
     }
   ]

@@ -6,20 +6,22 @@ import {initHomePage} from "common/modules/_page/startup";
 import {showTOC, showQuotes, showSearch} from "common/modules/_util/url";
 import search from "common/modules/_search/search";
 import {initQuoteDisplay} from "common/modules/_topics/events";
+import {setEnv} from "common/modules/_config/config";
+import toc from "common/modules/_contents/toc";
 
-import {setEnv} from "./modules/_config/config";
+//import toc from "./modules/_contents/toc";
 import {pageDriver} from "./modules/_util/driver";
-import toc from "./modules/_contents/toc";
+import {status} from "./modules/_config/status";
 import constants from "./constants";
 
 $(document).ready(() => {
   const store = new SourceStore(constants);
   storeInit(constants);
 
-  setEnv(store);
+  setEnv(store, status);
 
   initHomePage(store, pageDriver);
-  toc.initialize("page");
+  toc.initialize(store, "page");
   search.initialize(store);
 
   //support for quote display and sharing

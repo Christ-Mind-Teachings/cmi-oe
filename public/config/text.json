@@ -2,88 +2,89 @@
 	"bid": "text",
 	"title": "ACIM Original Edition: Text",
 	"image": "/t/acimoe/public/img/acim/text-toc.jpg",
+  "toc": "relaxed",
 	"contents": [
 		{
 			"id": "",
 			"title": "Front Matter",
-			"base": "/t/acimoe/text/front/",
-			"sections": [
+			"url": "/t/acimoe/text/front",
+			"contents": [
 				{
-					"url": "forward/",
-					"title": "Forward"
+					"url": "forward",
+					"subtitle": "Forward"
 				},
 				{
-					"url": "intro/",
+					"url": "intro",
 					"audio": "/text/intro.mp3",
 					"timing": "/text/intro.json",
-					"title": "Introduction"
+					"subtitle": "Introduction"
 				}
 			]
 		},
 		{
 			"id": "One",
 			"title": "Introduction to Miracles",
-			"base": "/t/acimoe/text/01/",
-			"sections": [
+			"url": "/t/acimoe/text/01",
+			"contents": [
 				{
-					"title": "Tx.1.I. Principles of Miracles",
+					"subtitle": "Tx.1.I. Principles of Miracles",
 					"audio": "/text/01/chap0101.mp3",
 					"timing": "/text/01/chap0101.json",
           "timer": "mike.glenn@outlook.com",
-					"url": "chap0101/"
+					"url": "chap0101"
 				},
 				{
-					"title": "Tx.1.II. Distortions of Miracle Impulses",
+					"subtitle": "Tx.1.II. Distortions of Miracle Impulses",
 					"audio": "/text/01/chap0102.mp3",
 					"timing": "/text/01/chap0102.json",
           "timer": "mike.glenn@outlook.com",
-					"url": "chap0102/"
+					"url": "chap0102"
 				}
 			]
 		},
 		{
 			"id": "Two",
-			"base": "/t/acimoe/text/02/",
+			"url": "/t/acimoe/text/02",
 			"title": "The Illusion of Separation",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0201/",
-					"title": "Tx.2.I. Introduction",
+					"url": "chap0201",
+					"subtitle": "Tx.2.I. Introduction",
 					"audio": "/text/02/chap0201.mp3",
           "timing": "/text/02/chap0201.json",
           "timer": "msullivan2k@gmail.com"
 				},
 				{
-					"url": "chap0202/",
-					"title": "Tx.2.II. The Reinterpretation of Defenses",
+					"url": "chap0202",
+					"subtitle": "Tx.2.II. The Reinterpretation of Defenses",
 					"audio": "/text/02/chap0202.mp3",
           "timing": "/text/02/chap0202.json",
           "timer": "msullivan2k@gmail.com"
 				},
 				{
-					"url": "chap0203/",
-					"title": "Tx.2.III. Healing as Release from Fear",
+					"url": "chap0203",
+					"subtitle": "Tx.2.III. Healing as Release from Fear",
 					"audio": "/text/02/chap0203.mp3",
           "timing": "/text/02/chap0203.json",
           "timer": "msullivan2k@gmail.com"
 				},
 				{
-					"url": "chap0204/",
-					"title": "Tx.2.IV. Fear as Lack of Love",
+					"url": "chap0204",
+					"subtitle": "Tx.2.IV. Fear as Lack of Love",
 					"audio": "/text/02/chap0204.mp3",
           "timing": "/text/02/chap0204.json",
           "timer": "msullivan2k@gmail.com"
 				},
 				{
-					"url": "chap0205/",
-					"title": "Tx.2.V. The Correction for Lack of Love",
+					"url": "chap0205",
+					"subtitle": "Tx.2.V. The Correction for Lack of Love",
 					"audio": "/text/02/chap0205.mp3",
           "timing": "/text/02/chap0205.json",
           "timer": "msullivan2k@gmail.com"
 				},
 				{
-					"url": "chap0206/",
-					"title": "Tx.2.VI. The Meaning of the Last Judgement",
+					"url": "chap0206",
+					"subtitle": "Tx.2.VI. The Meaning of the Last Judgement",
 					"audio": "/text/02/chap0206.mp3",
           "timing": "/text/02/chap0206.json",
           "timer": "msullivan2k@gmail.com"
@@ -92,68 +93,68 @@
 		},
 		{
 			"id": "Three",
-			"base": "/t/acimoe/text/03/",
+			"url": "/t/acimoe/text/03",
 			"title": "Retraining the Mind",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0301/",
-					"title": "Tx.3.I. Introduction",
+					"url": "chap0301",
+					"subtitle": "Tx.3.I. Introduction",
 					"audio": "/text/03/chap0301.mp3",
           "timing": "/text/03/chap0301.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0302/",
-					"title": "Tx.3.II. Special Principles for Miracle Workers",
+					"url": "chap0302",
+					"subtitle": "Tx.3.II. Special Principles for Miracle Workers",
 					"audio": "/text/03/chap0302.mp3",
           "timing": "/text/03/chap0302.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0303/",
-					"title": "Tx.3.III. Atonement without Sacrifice",
+					"url": "chap0303",
+					"subtitle": "Tx.3.III. Atonement without Sacrifice",
 					"audio": "/text/03/chap0303.mp3",
           "timing": "/text/03/chap0303.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0304/",
-					"title": "Tx.3.IV. Miracles as Accurate Perception",
+					"url": "chap0304",
+					"subtitle": "Tx.3.IV. Miracles as Accurate Perception",
 					"audio": "/text/03/chap0304.mp3",
           "timing": "/text/03/chap0304.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0305/",
-					"title": "Tx.3.V. Perception Versus Knowledge",
+					"url": "chap0305",
+					"subtitle": "Tx.3.V. Perception Versus Knowledge",
 					"audio": "/text/03/chap0305.mp3",
           "timing": "/text/03/chap0305.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0306/",
-					"title": "Tx.3.VI. Conflict and the Ego",
+					"url": "chap0306",
+					"subtitle": "Tx.3.VI. Conflict and the Ego",
 					"audio": "/text/03/chap0306.mp3",
           "timing": "/text/03/chap0306.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0307/",
-					"title": "Tx.3.VII. The Loss of Certainty",
+					"url": "chap0307",
+					"subtitle": "Tx.3.VII. The Loss of Certainty",
 					"audio": "/text/03/chap0307.mp3",
           "timing": "/text/03/chap0307.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0308/",
-					"title": "Tx.3.VIII. Judgement and the Authority Problem",
+					"url": "chap0308",
+					"subtitle": "Tx.3.VIII. Judgement and the Authority Problem",
 					"audio": "/text/03/chap0308.mp3",
           "timing": "/text/03/chap0308.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0309/",
-					"title": "Tx.3.IX. Creating versus the Self-Image",
+					"url": "chap0309",
+					"subtitle": "Tx.3.IX. Creating versus the Self-Image",
 					"audio": "/text/03/chap0309.mp3",
           "timing": "/text/03/chap0309.json",
           "timer": "onemillionchrists@gmail.com"
@@ -162,69 +163,69 @@
 		},
 		{
 			"id": "Four",
-			"base": "/t/acimoe/text/04/",
+			"url": "/t/acimoe/text/04",
 			"title": "The Root of all Evil",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0401/",
-					"title": "Tx.4.I. Introduction",
+					"url": "chap0401",
+					"subtitle": "Tx.4.I. Introduction",
 					"audio": "/text/04/chap0401.mp3",
           "timing": "/text/04/chap0401.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0402/",
-					"title": "Tx.4.II. Right Teaching and Right Learning",
+					"url": "chap0402",
+					"subtitle": "Tx.4.II. Right Teaching and Right Learning",
 					"audio": "/text/04/chap0402.mp3",
           "timing": "/text/04/chap0402.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0403/",
-					"title": "Tx.4.III. The Ego and False Autonomy",
+					"url": "chap0403",
+					"subtitle": "Tx.4.III. The Ego and False Autonomy",
 					"audio": "/text/04/chap0403.mp3",
           "timing": "/text/04/chap0403.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0404/",
-					"title": "Tx.4.IV. Love without Conflict",
+					"url": "chap0404",
+					"subtitle": "Tx.4.IV. Love without Conflict",
 					"audio": "/text/04/chap0404.mp3",
           "timing": "/text/04/chap0404.json",
           "note": "echo in audio",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0405/",
-					"title": "Tx.4.V. The Escape from Fear",
+					"url": "chap0405",
+					"subtitle": "Tx.4.V. The Escape from Fear",
 					"audio": "/text/04/chap0405.mp3",
           "timing": "/text/04/chap0405.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0406/",
-					"title": "Tx.4.VI. The Ego-Body Illusion",
+					"url": "chap0406",
+					"subtitle": "Tx.4.VI. The Ego-Body Illusion",
 					"audio": "/text/04/chap0406.mp3",
           "timing": "/text/04/chap0406.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0407/",
-					"title": "Tx.4.VII. The Constant State",
+					"url": "chap0407",
+					"subtitle": "Tx.4.VII. The Constant State",
 					"audio": "/text/04/chap0407.mp3",
           "timing": "/text/04/chap0407.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0408/",
-					"title": "Tx.4.VIII. Creation and Communication",
+					"url": "chap0408",
+					"subtitle": "Tx.4.VIII. Creation and Communication",
 					"audio": "/text/04/chap0408.mp3",
           "timing": "/text/04/chap0408.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0409/",
-					"title": "Tx.4.IX. True Rehabilitation",
+					"url": "chap0409",
+					"subtitle": "Tx.4.IX. True Rehabilitation",
 					"audio": "/text/04/chap0409.mp3",
           "timing": "/text/04/chap0409.json",
           "timer": "onemillionchrists@gmail.com"
@@ -233,68 +234,68 @@
 		},
 		{
 			"id": "Five",
-			"base": "/t/acimoe/text/05/",
+			"url": "/t/acimoe/text/05",
 			"title": "Healing and Wholeness",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0501/",
+					"url": "chap0501",
 					"audio": "/text/05/chap0501.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0501.json",
-					"title": "Tx.5.I. Introduction"
+					"subtitle": "Tx.5.I. Introduction"
 				},
 				{
-					"url": "chap0502/",
+					"url": "chap0502",
 					"audio": "/text/05/chap0502.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0502.json",
-					"title": "Tx.5.II. Healing as Joining"
+					"subtitle": "Tx.5.II. Healing as Joining"
 				},
 				{
-					"url": "chap0503/",
+					"url": "chap0503",
 					"audio": "/text/05/chap0503.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0503.json",
-					"title": "Tx.5.III. The Mind of the Atonement"
+					"subtitle": "Tx.5.III. The Mind of the Atonement"
 				},
 				{
-					"url": "chap0504/",
-					"title": "Tx.5.IV. The Voice for God",
+					"url": "chap0504",
+					"subtitle": "Tx.5.IV. The Voice for God",
 					"audio": "/text/05/chap0504.mp3",
           "timing": "/text/05/chap0504.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0505/",
-					"title": "Tx.5.V. The Guide to Salvation",
+					"url": "chap0505",
+					"subtitle": "Tx.5.V. The Guide to Salvation",
 					"audio": "/text/05/chap0505.mp3",
           "timing": "/text/05/chap0505.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0506/",
+					"url": "chap0506",
 					"audio": "/text/05/chap0506.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0506.json",
-					"title": "Tx.5.VI. Therapy and Teaching"
+					"subtitle": "Tx.5.VI. Therapy and Teaching"
 				},
 				{
-					"url": "chap0507/",
+					"url": "chap0507",
 					"audio": "/text/05/chap0507.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0507.json",
-					"title": "Tx.5.VII. The Two Decisions"
+					"subtitle": "Tx.5.VII. The Two Decisions"
 				},
 				{
-					"url": "chap0508/",
+					"url": "chap0508",
 					"audio": "/text/05/chap0508.mp3",
           "timer": "onemillionchrists@gmail.com",
           "timing": "/text/05/chap0508.json",
-					"title": "Tx.5.VIII. Time and Eternity"
+					"subtitle": "Tx.5.VIII. Time and Eternity"
 				},
 				{
-					"url": "chap0509/",
-					"title": "Tx.5.IX. The Eternal Fixation",
+					"url": "chap0509",
+					"subtitle": "Tx.5.IX. The Eternal Fixation",
 					"audio": "/text/05/chap0509.mp3",
           "timing": "/text/05/chap0509.json",
           "timer": "onemillionchrists@gmail.com"
@@ -303,40 +304,40 @@
 		},
 		{
 			"id": "Six",
-			"base": "/t/acimoe/text/06/",
+			"url": "/t/acimoe/text/06",
 			"title": "Attack and Fear",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0601/",
+					"url": "chap0601",
 					"audio": "/text/06/chap0601.mp3",
           "timing": "/text/06/chap0601.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.6.I. Introduction"
+					"subtitle": "Tx.6.I. Introduction"
 				},
 				{
-					"url": "chap0602/",
+					"url": "chap0602",
 					"audio": "/text/06/chap0602.mp3",
           "timing": "/text/06/chap0602.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.6.II. The Message of the Crucifixion"
+					"subtitle": "Tx.6.II. The Message of the Crucifixion"
 				},
 				{
-					"url": "chap0603/",
+					"url": "chap0603",
 					"audio": "/text/06/chap0603.mp3",
           "timing": "/text/06/chap0603.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.6.III. The Uses of Projection"
+					"subtitle": "Tx.6.III. The Uses of Projection"
 				},
 				{
-					"url": "chap0604/",
+					"url": "chap0604",
 					"audio": "/text/06/chap0604.mp3",
           "timing": "/text/06/chap0604.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.6.IV. The Relinquishment of Attack"
+					"subtitle": "Tx.6.IV. The Relinquishment of Attack"
 				},
 				{
-					"url": "chap0605/",
-					"title": "Tx.6.V. The Only Answer",
+					"url": "chap0605",
+					"subtitle": "Tx.6.V. The Only Answer",
 					"audio": "/text/06/chap0605.mp3",
           "timing": "/text/06/chap0605.json",
           "timer": "onemillionchrists@gmail.com",
@@ -346,1736 +347,1736 @@
 		},
 		{
 			"id": "Seven",
-			"base": "/t/acimoe/text/07/",
+			"url": "/t/acimoe/text/07",
 			"title": "The Consistency of the Kingdom",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0701/",
-					"title": "Tx.7.I. Introduction",
+					"url": "chap0701",
+					"subtitle": "Tx.7.I. Introduction",
 					"audio": "/text/07/chap0701.mp3",
           "timing": "/text/07/chap0701.json",
           "timer": "onemillionchrists@gmail.com"
 				},
 				{
-					"url": "chap0702/",
+					"url": "chap0702",
 					"audio": "/text/07/chap0702.mp3",
           "timing": "/text/07/chap0702.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.II. Bargaining versus Healing"
+					"subtitle": "Tx.7.II. Bargaining versus Healing"
 				},
 				{
-					"url": "chap0703/",
+					"url": "chap0703",
 					"audio": "/text/07/chap0703.mp3",
           "timing": "/text/07/chap0703.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.III. The Laws of Mind"
+					"subtitle": "Tx.7.III. The Laws of Mind"
 				},
 				{
-					"url": "chap0704/",
+					"url": "chap0704",
 					"audio": "/text/07/chap0704.mp3",
           "timing": "/text/07/chap0704.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.IV. The Unified Curriculum"
+					"subtitle": "Tx.7.IV. The Unified Curriculum"
 				},
 				{
-					"url": "chap0705/",
+					"url": "chap0705",
 					"audio": "/text/07/chap0705.mp3",
           "timing": "/text/07/chap0705.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.V. The Recognition of Truth"
+					"subtitle": "Tx.7.V. The Recognition of Truth"
 				},
 				{
-					"url": "chap0706/",
+					"url": "chap0706",
 					"audio": "/text/07/chap0706.mp3",
           "timing": "/text/07/chap0706.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.VI. Healing and the Changelessness of Mind"
+					"subtitle": "Tx.7.VI. Healing and the Changelessness of Mind"
 				},
 				{
-					"url": "chap0707/",
+					"url": "chap0707",
 					"audio": "/text/07/chap0707.mp3",
           "timing": "/text/07/chap0707.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.VII. From Vigilance to Peace"
+					"subtitle": "Tx.7.VII. From Vigilance to Peace"
 				},
 				{
-					"url": "chap0708/",
+					"url": "chap0708",
 					"audio": "/text/07/chap0708.mp3",
           "timing": "/text/07/chap0708.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.VIII. The Total Commitment"
+					"subtitle": "Tx.7.VIII. The Total Commitment"
 				},
 				{
-					"url": "chap0709/",
+					"url": "chap0709",
 					"audio": "/text/07/chap0709.mp3",
           "timing": "/text/07/chap0709.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.IX. The Defense of Conflict"
+					"subtitle": "Tx.7.IX. The Defense of Conflict"
 				},
 				{
-					"url": "chap0710/",
+					"url": "chap0710",
 					"audio": "/text/07/chap0710.mp3",
           "timing": "/text/07/chap0710.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.X. The Extension of the Kingdom"
+					"subtitle": "Tx.7.X. The Extension of the Kingdom"
 				},
 				{
-					"url": "chap0711/",
+					"url": "chap0711",
 					"audio": "/text/07/chap0711.mp3",
           "timing": "/text/07/chap0711.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.XI. The Confusion of Strength and Weakness"
+					"subtitle": "Tx.7.XI. The Confusion of Strength and Weakness"
 				},
 				{
-					"url": "chap0712/",
+					"url": "chap0712",
 					"audio": "/text/07/chap0712.mp3",
           "timing": "/text/07/chap0712.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.7.XII. The State of Grace"
+					"subtitle": "Tx.7.XII. The State of Grace"
 				}
 			]
 		},
 		{
 			"id": "Eight",
-			"base": "/t/acimoe/text/08/",
+			"url": "/t/acimoe/text/08",
 			"title": "The Journey Back",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0801/",
+					"url": "chap0801",
 					"audio": "/text/08/chap0801.mp3",
 					"timing": "/text/08/chap0801.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.I. Introduction"
+					"subtitle": "Tx.8.I. Introduction"
 				},
 				{
-					"url": "chap0802/",
+					"url": "chap0802",
 					"audio": "/text/08/chap0802.mp3",
 					"timing": "/text/08/chap0802.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.II. The Direction of the Curriculum"
+					"subtitle": "Tx.8.II. The Direction of the Curriculum"
 				},
 				{
-					"url": "chap0803/",
+					"url": "chap0803",
 					"audio": "/text/08/chap0803.mp3",
 					"timing": "/text/08/chap0803.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.III. The Rationale for Choice"
+					"subtitle": "Tx.8.III. The Rationale for Choice"
 				},
 				{
-					"url": "chap0804/",
+					"url": "chap0804",
 					"audio": "/text/08/chap0804.mp3",
 					"timing": "/text/08/chap0804.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.IV. The Holy Encounter"
+					"subtitle": "Tx.8.IV. The Holy Encounter"
 				},
 				{
-					"url": "chap0805/",
+					"url": "chap0805",
 					"audio": "/text/08/chap0805.mp3",
 					"timing": "/text/08/chap0805.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.V. The Light of the World"
+					"subtitle": "Tx.8.V. The Light of the World"
 				},
 				{
-					"url": "chap0806/",
+					"url": "chap0806",
 					"audio": "/text/08/chap0806.mp3",
 					"timing": "/text/08/chap0806.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.VI. The Power of Joint Decision"
+					"subtitle": "Tx.8.VI. The Power of Joint Decision"
 				},
 				{
-					"url": "chap0807/",
+					"url": "chap0807",
 					"audio": "/text/08/chap0807.mp3",
 					"timing": "/text/08/chap0807.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.VII. Communication and the Ego-Body Equation"
+					"subtitle": "Tx.8.VII. Communication and the Ego-Body Equation"
 				},
 				{
-					"url": "chap0808/",
+					"url": "chap0808",
 					"audio": "/text/08/chap0808.mp3",
 					"timing": "/text/08/chap0808.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.VIII. The Body as Means or End"
+					"subtitle": "Tx.8.VIII. The Body as Means or End"
 				},
 				{
-					"url": "chap0809/",
+					"url": "chap0809",
 					"audio": "/text/08/chap0809.mp3",
 					"timing": "/text/08/chap0809.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.IX. Healing as Corrected Perception"
+					"subtitle": "Tx.8.IX. Healing as Corrected Perception"
 				},
 				{
-					"url": "chap0810/",
+					"url": "chap0810",
 					"audio": "/text/08/chap0810.mp3",
 					"timing": "/text/08/chap0810.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.X. The Acceptance of Reality"
+					"subtitle": "Tx.8.X. The Acceptance of Reality"
 				},
 				{
-					"url": "chap0811/",
+					"url": "chap0811",
 					"audio": "/text/08/chap0811.mp3",
 					"timing": "/text/08/chap0811.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.8.XI. The Answer to Prayer"
+					"subtitle": "Tx.8.XI. The Answer to Prayer"
 				}
 			]
 		},
 		{
 			"id": "Nine",
-			"base": "/t/acimoe/text/09/",
+			"url": "/t/acimoe/text/09",
 			"title": "The Correction of Error",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap0901/",
+					"url": "chap0901",
 					"audio": "/text/09/chap0901.mp3",
 					"timing": "/text/09/chap0901.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.I. Introduction"
+					"subtitle": "Tx.9.I. Introduction"
 				},
 				{
-					"url": "chap0902/",
+					"url": "chap0902",
 					"audio": "/text/09/chap0902.mp3",
 					"timing": "/text/09/chap0902.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.II. Sanity and Perception"
+					"subtitle": "Tx.9.II. Sanity and Perception"
 				},
 				{
-					"url": "chap0903/",
+					"url": "chap0903",
 					"audio": "/text/09/chap0903.mp3",
 					"timing": "/text/09/chap0903.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.III. Atonement as a Lesson in Sharing"
+					"subtitle": "Tx.9.III. Atonement as a Lesson in Sharing"
 				},
 				{
-					"url": "chap0904/",
+					"url": "chap0904",
 					"audio": "/text/09/chap0904.mp3",
 					"timing": "/text/09/chap0904.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.IV. The Unhealed Healer"
+					"subtitle": "Tx.9.IV. The Unhealed Healer"
 				},
 				{
-					"url": "chap0905/",
+					"url": "chap0905",
 					"audio": "/text/09/chap0905.mp3",
 					"timing": "/text/09/chap0905.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.V. The Awareness of the Holy Spirit"
+					"subtitle": "Tx.9.V. The Awareness of the Holy Spirit"
 				},
 				{
-					"url": "chap0906/",
+					"url": "chap0906",
 					"audio": "/text/09/chap0906.mp3",
 					"timing": "/text/09/chap0906.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.VI. Salvation and God’s Will"
+					"subtitle": "Tx.9.VI. Salvation and God’s Will"
 				},
 				{
-					"url": "chap0907/",
+					"url": "chap0907",
 					"audio": "/text/09/chap0907.mp3",
 					"timing": "/text/09/chap0907.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.VII. Grandeur versus Grandiosity"
+					"subtitle": "Tx.9.VII. Grandeur versus Grandiosity"
 				},
 				{
-					"url": "chap0908/",
+					"url": "chap0908",
 					"audio": "/text/09/chap0908.mp3",
 					"timing": "/text/09/chap0908.json",
           "note": "timing edited to separate p3/p4",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.VIII. The Inclusiveness of Creation"
+					"subtitle": "Tx.9.VIII. The Inclusiveness of Creation"
 				},
 				{
-					"url": "chap0909/",
+					"url": "chap0909",
 					"audio": "/text/09/chap0909.mp3",
 					"timing": "/text/09/chap0909.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.IX. The Decision to Forget"
+					"subtitle": "Tx.9.IX. The Decision to Forget"
 				},
 				{
-					"url": "chap0910/",
+					"url": "chap0910",
 					"audio": "/text/09/chap0910.mp3",
 					"timing": "/text/09/chap0910.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.X. Magic versus Miracles"
+					"subtitle": "Tx.9.X. Magic versus Miracles"
 				},
 				{
-					"url": "chap0911/",
+					"url": "chap0911",
 					"audio": "/text/09/chap0911.mp3",
 					"timing": "/text/09/chap0911.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.9.XI. The Denial of God"
+					"subtitle": "Tx.9.XI. The Denial of God"
 				}
 			]
 		},
 		{
 			"id": "Ten",
-			"base": "/t/acimoe/text/10/",
+			"url": "/t/acimoe/text/10",
 			"title": "God and the Ego",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1001/",
+					"url": "chap1001",
 					"audio": "/text/10/chap1001.mp3",
 					"timing": "/text/10/chap1001.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.I. Introduction"
+					"subtitle": "Tx.10.I. Introduction"
 				},
 				{
-					"url": "chap1002/",
+					"url": "chap1002",
 					"audio": "/text/10/chap1002.mp3",
 					"timing": "/text/10/chap1002.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.II. Projection versus Extension"
+					"subtitle": "Tx.10.II. Projection versus Extension"
 				},
 				{
-					"url": "chap1003/",
+					"url": "chap1003",
 					"audio": "/text/10/chap1003.mp3",
 					"timing": "/text/10/chap1003.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.III. The Willingness for Healing"
+					"subtitle": "Tx.10.III. The Willingness for Healing"
 				},
 				{
-					"url": "chap1004/",
+					"url": "chap1004",
 					"audio": "/text/10/chap1004.mp3",
 					"timing": "/text/10/chap1004.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.IV. From Darkness to Light"
+					"subtitle": "Tx.10.IV. From Darkness to Light"
 				},
 				{
-					"url": "chap1005/",
+					"url": "chap1005",
 					"audio": "/text/10/chap1005.mp3",
 					"timing": "/text/10/chap1005.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.V. The Inheritance of God’s Son"
+					"subtitle": "Tx.10.V. The Inheritance of God’s Son"
 				},
 				{
-					"url": "chap1006/",
+					"url": "chap1006",
 					"audio": "/text/10/chap1006.mp3",
 					"timing": "/text/10/chap1006.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.VI. The “Dynamics” of the Ego"
+					"subtitle": "Tx.10.VI. The “Dynamics” of the Ego"
 				},
 				{
-					"url": "chap1007/",
+					"url": "chap1007",
 					"audio": "/text/10/chap1007.mp3",
 					"timing": "/text/10/chap1007.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.VII. Experience and Perception"
+					"subtitle": "Tx.10.VII. Experience and Perception"
 				},
 				{
-					"url": "chap1008/",
+					"url": "chap1008",
 					"audio": "/text/10/chap1008.mp3",
 					"timing": "/text/10/chap1008.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.10.VIII. The Problem and the Answer"
+					"subtitle": "Tx.10.VIII. The Problem and the Answer"
 				}
 			]
 		},
 		{
 			"id": "Eleven",
-			"base": "/t/acimoe/text/11/",
+			"url": "/t/acimoe/text/11",
 			"title": "God’s Plan for Salvation",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1101/",
+					"url": "chap1101",
 					"audio": "/text/11/chap1101.mp3",
 					"timing": "/text/11/chap1101.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.I. Introduction"
+					"subtitle": "Tx.11.I. Introduction"
 				},
 				{
-					"url": "chap1102/",
+					"url": "chap1102",
 					"audio": "/text/11/chap1102.mp3",
 					"timing": "/text/11/chap1102.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.II. The Judgement of the Holy Spirit"
+					"subtitle": "Tx.11.II. The Judgement of the Holy Spirit"
 				},
 				{
-					"url": "chap1103/",
+					"url": "chap1103",
 					"audio": "/text/11/chap1103.mp3",
 					"timing": "/text/11/chap1103.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.III. The Mechanism of Miracles"
+					"subtitle": "Tx.11.III. The Mechanism of Miracles"
 				},
 				{
-					"url": "chap1104/",
+					"url": "chap1104",
 					"audio": "/text/11/chap1104.mp3",
 					"timing": "/text/11/chap1104.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.IV. The Investment in Reality"
+					"subtitle": "Tx.11.IV. The Investment in Reality"
 				},
 				{
-					"url": "chap1105/",
+					"url": "chap1105",
 					"audio": "/text/11/chap1105.mp3",
 					"timing": "/text/11/chap1105.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.V. Seeking and Finding"
+					"subtitle": "Tx.11.V. Seeking and Finding"
 				},
 				{
-					"url": "chap1106/",
+					"url": "chap1106",
 					"audio": "/text/11/chap1106.mp3",
 					"timing": "/text/11/chap1106.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.VI. The Sane Curriculum"
+					"subtitle": "Tx.11.VI. The Sane Curriculum"
 				},
 				{
-					"url": "chap1107/",
+					"url": "chap1107",
 					"audio": "/text/11/chap1107.mp3",
 					"timing": "/text/11/chap1107.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.VII. The Vision of Christ"
+					"subtitle": "Tx.11.VII. The Vision of Christ"
 				},
 				{
-					"url": "chap1108/",
+					"url": "chap1108",
 					"audio": "/text/11/chap1108.mp3",
 					"timing": "/text/11/chap1108.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.VIII. The Guide for Miracles"
+					"subtitle": "Tx.11.VIII. The Guide for Miracles"
 				},
 				{
-					"url": "chap1109/",
+					"url": "chap1109",
 					"audio": "/text/11/chap1109.mp3",
 					"timing": "/text/11/chap1109.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.IX. Reality and Redemption"
+					"subtitle": "Tx.11.IX. Reality and Redemption"
 				},
 				{
-					"url": "chap1110/",
+					"url": "chap1110",
 					"audio": "/text/11/chap1110.mp3",
 					"timing": "/text/11/chap1110.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.11.X. Guiltlessness and Invulnerability"
+					"subtitle": "Tx.11.X. Guiltlessness and Invulnerability"
 				}
 			]
 		},
 		{
 			"id": "Twelve",
-			"base": "/t/acimoe/text/12/",
+			"url": "/t/acimoe/text/12",
 			"title": "The Problem of Guilt",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1201/",
+					"url": "chap1201",
 					"audio": "/text/12/chap1201.mp3",
 					"timing": "/text/12/chap1201.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.I. Introduction"
+					"subtitle": "Tx.12.I. Introduction"
 				},
 				{
-					"url": "chap1202/",
+					"url": "chap1202",
 					"audio": "/text/12/chap1202.mp3",
 					"timing": "/text/12/chap1202.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.II. Crucifixion by Guilt"
+					"subtitle": "Tx.12.II. Crucifixion by Guilt"
 				},
 				{
-					"url": "chap1203/",
+					"url": "chap1203",
 					"audio": "/text/12/chap1203.mp3",
 					"timing": "/text/12/chap1203.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.III. The Fear of Redemption"
+					"subsubtitle": "Tx.12.III. The Fear of Redemption"
 				},
 				{
-					"url": "chap1204/",
+					"url": "chap1204",
 					"audio": "/text/12/chap1204.mp3",
 					"timing": "/text/12/chap1204.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.IV. Healing and Time"
+					"subtitle": "Tx.12.IV. Healing and Time"
 				},
 				{
-					"url": "chap1205/",
+					"url": "chap1205",
 					"audio": "/text/12/chap1205.mp3",
 					"timing": "/text/12/chap1205.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.V. The Two Emotions"
+					"subtitle": "Tx.12.V. The Two Emotions"
 				},
 				{
-					"url": "chap1206/",
+					"url": "chap1206",
 					"audio": "/text/12/chap1206.mp3",
 					"timing": "/text/12/chap1206.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.VI. Finding the Present"
+					"subtitle": "Tx.12.VI. Finding the Present"
 				},
 				{
-					"url": "chap1207/",
+					"url": "chap1207",
 					"audio": "/text/12/chap1207.mp3",
 					"timing": "/text/12/chap1207.json",
           "note": "check timing transition on 73 to 74",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.12.VII. Attainment of the Real World"
+					"subtitle": "Tx.12.VII. Attainment of the Real World"
 				}
 			]
 		},
 		{
 			"id": "Thirteen",
-			"base": "/t/acimoe/text/13/",
+			"url": "/t/acimoe/text/13",
 			"title": "From Perception to Knowledge",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1301/",
+					"url": "chap1301",
 					"audio": "/text/13/chap1301.mp3",
 					"timing": "/text/13/chap1301.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.I. Introduction"
+					"subtitle": "Tx.13.I. Introduction"
 				},
 				{
-					"url": "chap1302/",
+					"url": "chap1302",
 					"audio": "/text/13/chap1302.mp3",
 					"timing": "/text/13/chap1302.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.II. The Role of Healing"
+					"subtitle": "Tx.13.II. The Role of Healing"
 				},
 				{
-					"url": "chap1303/",
+					"url": "chap1303",
 					"audio": "/text/13/chap1303.mp3",
 					"timing": "/text/13/chap1303.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.III. The Shadow of Guilt"
+					"subtitle": "Tx.13.III. The Shadow of Guilt"
 				},
 				{
-					"url": "chap1304/",
+					"url": "chap1304",
 					"audio": "/text/13/chap1304.mp3",
 					"timing": "/text/13/chap1304.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.IV. Release and Restoration"
+					"subtitle": "Tx.13.IV. Release and Restoration"
 				},
 				{
-					"url": "chap1305/",
+					"url": "chap1305",
 					"audio": "/text/13/chap1305.mp3",
 					"timing": "/text/13/chap1305.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.V. The Guarantee of Heaven"
+					"subtitle": "Tx.13.V. The Guarantee of Heaven"
 				},
 				{
-					"url": "chap1306/",
+					"url": "chap1306",
 					"audio": "/text/13/chap1306.mp3",
 					"timing": "/text/13/chap1306.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.VI. The Testimony of Miracles"
+					"subsubtitle": "Tx.13.VI. The Testimony of Miracles"
 				},
 				{
-					"url": "chap1307/",
+					"url": "chap1307",
 					"audio": "/text/13/chap1307.mp3",
 					"timing": "/text/13/chap1307.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.VII. The Happy Learner"
+					"subtitle": "Tx.13.VII. The Happy Learner"
 				},
 				{
-					"url": "chap1308/",
+					"url": "chap1308",
 					"audio": "/text/13/chap1308.mp3",
 					"timing": "/text/13/chap1308.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.VIII. The Decision for Guiltlessness"
+					"subtitle": "Tx.13.VIII. The Decision for Guiltlessness"
 				},
 				{
-					"url": "chap1309/",
+					"url": "chap1309",
 					"audio": "/text/13/chap1309.mp3",
 					"timing": "/text/13/chap1309.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.13.IX. The Way of Salvation"
+					"subtitle": "Tx.13.IX. The Way of Salvation"
 				}
 			]
 		},
 		{
 			"id": "Fourteen",
-			"base": "/t/acimoe/text/14/",
+			"url": "/t/acimoe/text/14",
 			"title": "Bringing Illusions to Truth",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1401/",
+					"url": "chap1401",
 					"audio": "/text/14/chap1401.mp3",
 					"timing": "/text/14/chap1401.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.I. Introduction"
+					"subtitle": "Tx.14.I. Introduction"
 				},
 				{
-					"url": "chap1402/",
+					"url": "chap1402",
 					"audio": "/text/14/chap1402.mp3",
 					"timing": "/text/14/chap1402.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.II. Guilt and Guiltlessness"
+					"subtitle": "Tx.14.II. Guilt and Guiltlessness"
 				},
 				{
-					"url": "chap1403/",
+					"url": "chap1403",
 					"audio": "/text/14/chap1403.mp3",
 					"timing": "/text/14/chap1403.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.III. Out of the Darkness"
+					"subtitle": "Tx.14.III. Out of the Darkness"
 				},
 				{
-					"url": "chap1404/",
+					"url": "chap1404",
 					"audio": "/text/14/chap1404.mp3",
 					"timing": "/text/14/chap1404.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.IV. Perception without Deceit"
+					"subtitle": "Tx.14.IV. Perception without Deceit"
 				},
 				{
-					"url": "chap1405/",
+					"url": "chap1405",
 					"audio": "/text/14/chap1405.mp3",
 					"timing": "/text/14/chap1405.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.V. The Recognition of Holiness"
+					"subtitle": "Tx.14.V. The Recognition of Holiness"
 				},
 				{
-					"url": "chap1406/",
+					"url": "chap1406",
 					"audio": "/text/14/chap1406.mp3",
 					"timing": "/text/14/chap1406.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.VI. The Shift to Miracles"
+					"subtitle": "Tx.14.VI. The Shift to Miracles"
 				},
 				{
-					"url": "chap1407/",
+					"url": "chap1407",
 					"audio": "/text/14/chap1407.mp3",
 					"timing": "/text/14/chap1407.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.14.VII. The Test of Truth"
+					"subtitle": "Tx.14.VII. The Test of Truth"
 				}
 			]
 		},
 		{
 			"id": "Fifteen",
-			"base": "/t/acimoe/text/15/",
+			"url": "/t/acimoe/text/15",
 			"title": "The Purpose of Time",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1501/",
+					"url": "chap1501",
 					"audio": "/text/15/chap1501.mp3",
 					"timing": "/text/15/chap1501.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.I. Introduction"
+					"subtitle": "Tx.15.I. Introduction"
 				},
 				{
-					"url": "chap1502/",
+					"url": "chap1502",
 					"audio": "/text/15/chap1502.mp3",
 					"timing": "/text/15/chap1502.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.II. The Uses of Time"
+					"subtitle": "Tx.15.II. The Uses of Time"
 				},
 				{
-					"url": "chap1503/",
+					"url": "chap1503",
 					"audio": "/text/15/chap1503.mp3",
 					"timing": "/text/15/chap1503.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.III. Time and Eternity"
+					"subtitle": "Tx.15.III. Time and Eternity"
 				},
 				{
-					"url": "chap1504/",
+					"url": "chap1504",
 					"audio": "/text/15/chap1504.mp3",
 					"timing": "/text/15/chap1504.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.IV. Littleness versus Magnitude"
+					"subtitle": "Tx.15.IV. Littleness versus Magnitude"
 				},
 				{
-					"url": "chap1505/",
+					"url": "chap1505",
 					"audio": "/text/15/chap1505.mp3",
 					"timing": "/text/15/chap1505.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.V. Practicing the Holy Instant"
+					"subtitle": "Tx.15.V. Practicing the Holy Instant"
 				},
 				{
-					"url": "chap1506/",
+					"url": "chap1506",
 					"audio": "/text/15/chap1506.mp3",
 					"timing": "/text/15/chap1506.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.VI. The Holy Instant and Special Relationships"
+					"subtitle": "Tx.15.VI. The Holy Instant and Special Relationships"
 				},
 				{
-					"url": "chap1507/",
+					"url": "chap1507",
 					"audio": "/text/15/chap1507.mp3",
 					"timing": "/text/15/chap1507.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.VII. The Holy Instant and the Laws of God"
+					"subtitle": "Tx.15.VII. The Holy Instant and the Laws of God"
 				},
 				{
-					"url": "chap1508/",
+					"url": "chap1508",
 					"audio": "/text/15/chap1508.mp3",
 					"timing": "/text/15/chap1508.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.VIII. The Holy Instant and Communication"
+					"subtitle": "Tx.15.VIII. The Holy Instant and Communication"
 				},
 				{
-					"url": "chap1509/",
+					"url": "chap1509",
 					"audio": "/text/15/chap1509.mp3",
 					"timing": "/text/15/chap1509.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.IX. The Holy Instant and Real Relationships"
+					"subtitle": "Tx.15.IX. The Holy Instant and Real Relationships"
 				},
 				{
-					"url": "chap1510/",
+					"url": "chap1510",
 					"audio": "/text/15/chap1510.mp3",
 					"timing": "/text/15/chap1510.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.X. The Time of Christ"
+					"subtitle": "Tx.15.X. The Time of Christ"
 				},
 				{
-					"url": "chap1511/",
+					"url": "chap1511",
 					"audio": "/text/15/chap1511.mp3",
 					"timing": "/text/15/chap1511.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.15.XI. The End of Sacrifice"
+					"subtitle": "Tx.15.XI. The End of Sacrifice"
 				}
 			]
 		},
 		{
 			"id": "Sixteen",
-			"base": "/t/acimoe/text/16/",
+			"url": "/t/acimoe/text/16",
 			"title": "The Forgiveness of Illusions",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1601/",
+					"url": "chap1601",
 					"audio": "/text/16/chap1601.mp3",
           "timer": "msullivan2k@gmail.com",
 					"timing": "/text/16/chap1601.json",
-					"title": "Tx.16.I. Introduction"
+					"subtitle": "Tx.16.I. Introduction"
 				},
 				{
-					"url": "chap1602/",
+					"url": "chap1602",
 					"audio": "/text/16/chap1602.mp3",
 					"timing": "/text/16/chap1602.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.II. True Empathy"
+					"subtitle": "Tx.16.II. True Empathy"
 				},
 				{
-					"url": "chap1603/",
+					"url": "chap1603",
 					"audio": "/text/16/chap1603.mp3",
 					"timing": "/text/16/chap1603.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.III. The Magnitude of Holiness"
+					"subtitle": "Tx.16.III. The Magnitude of Holiness"
 				},
 				{
-					"url": "chap1604/",
+					"url": "chap1604",
 					"audio": "/text/16/chap1604.mp3",
 					"timing": "/text/16/chap1604.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.IV. The Reward of Teaching"
+					"subtitle": "Tx.16.IV. The Reward of Teaching"
 				},
 				{
-					"url": "chap1605/",
+					"url": "chap1605",
 					"audio": "/text/16/chap1605.mp3",
 					"timing": "/text/16/chap1605.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.V. Illusion and Reality of Love"
+					"subtitle": "Tx.16.V. Illusion and Reality of Love"
 				},
 				{
-					"url": "chap1606/",
+					"url": "chap1606",
 					"audio": "/text/16/chap1606.mp3",
 					"timing": "/text/16/chap1606.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.VI. Specialness and Guilt"
+					"subtitle": "Tx.16.VI. Specialness and Guilt"
 				},
 				{
-					"url": "chap1607/",
+					"url": "chap1607",
 					"audio": "/text/16/chap1607.mp3",
 					"timing": "/text/16/chap1607.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.VII. The Bridge to the Real World"
+					"subtitle": "Tx.16.VII. The Bridge to the Real World"
 				},
 				{
-					"url": "chap1608/",
+					"url": "chap1608",
 					"audio": "/text/16/chap1608.mp3",
 					"timing": "/text/16/chap1608.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.16.VIII. The End of Illusions"
+					"subtitle": "Tx.16.VIII. The End of Illusions"
 				}
 			]
 		},
 		{
 			"id": "Seventeen",
-			"base": "/t/acimoe/text/17/",
+			"url": "/t/acimoe/text/17",
 			"title": "Forgiveness and Healing",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1701/",
+					"url": "chap1701",
 					"audio": "/text/17/chap1701.mp3",
 					"timing": "/text/17/chap1701.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.I. Introduction"
+					"subtitle": "Tx.17.I. Introduction"
 				},
 				{
-					"url": "chap1702/",
+					"url": "chap1702",
 					"audio": "/text/17/chap1702.mp3",
 					"timing": "/text/17/chap1702.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.II. Fantasy and Distorted Perception"
+					"subtitle": "Tx.17.II. Fantasy and Distorted Perception"
 				},
 				{
-					"url": "chap1703/",
+					"url": "chap1703",
 					"audio": "/text/17/chap1703.mp3",
 					"timing": "/text/17/chap1703.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.III. The Forgiven World"
+					"subtitle": "Tx.17.III. The Forgiven World"
 				},
 				{
-					"url": "chap1704/",
+					"url": "chap1704",
 					"audio": "/text/17/chap1704.mp3",
 					"timing": "/text/17/chap1704.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.IV. Shadows of the Past"
+					"subtitle": "Tx.17.IV. Shadows of the Past"
 				},
 				{
-					"url": "chap1705/",
+					"url": "chap1705",
 					"audio": "/text/17/chap1705.mp3",
 					"timing": "/text/17/chap1705.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.V. Perception and the Two Worlds"
+					"subtitle": "Tx.17.V. Perception and the Two Worlds"
 				},
 				{
-					"url": "chap1706/",
+					"url": "chap1706",
 					"audio": "/text/17/chap1706.mp3",
 					"timing": "/text/17/chap1706.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.VI. The Healed Relationship"
+					"subtitle": "Tx.17.VI. The Healed Relationship"
 				},
 				{
-					"url": "chap1707/",
+					"url": "chap1707",
 					"audio": "/text/17/chap1707.mp3",
 					"timing": "/text/17/chap1707.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.VII. Practical Forgiveness"
+					"subtitle": "Tx.17.VII. Practical Forgiveness"
 				},
 				{
-					"url": "chap1708/",
+					"url": "chap1708",
 					"audio": "/text/17/chap1708.mp3",
 					"timing": "/text/17/chap1708.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.VIII. The Need for Faith"
+					"subtitle": "Tx.17.VIII. The Need for Faith"
 				},
 				{
-					"url": "chap1709/",
+					"url": "chap1709",
 					"audio": "/text/17/chap1709.mp3",
 					"timing": "/text/17/chap1709.json",
           "timer": "mike.glenn@outlook.com",
-					"title": "Tx.17.IX. Conditions of Forgiveness"
+					"subtitle": "Tx.17.IX. Conditions of Forgiveness"
 				}
 			]
 		},
 		{
 			"id": "Eighteen",
-			"base": "/t/acimoe/text/18/",
+			"url": "/t/acimoe/text/18",
 			"title": "The Dream and the Reality",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1801/",
+					"url": "chap1801",
           "audio": "/text/18/chap1801.mp3",
 					"timing": "/text/18/chap1801.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.I. Introduction"
+					"subtitle": "Tx.18.I. Introduction"
 				},
 				{
-					"url": "chap1802/",
+					"url": "chap1802",
 					"audio": "/text/18/chap1802.mp3",
 					"timing": "/text/18/chap1802.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.II. Substitution as a Defense"
+					"subtitle": "Tx.18.II. Substitution as a Defense"
 				},
 				{
-					"url": "chap1803/",
+					"url": "chap1803",
 					"audio": "/text/18/chap1803.mp3",
 					"timing": "/text/18/chap1803.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.III. The Basis of the Dream"
+					"subtitle": "Tx.18.III. The Basis of the Dream"
 				},
 				{
-					"url": "chap1804/",
+					"url": "chap1804",
 					"audio": "/text/18/chap1804.mp3",
 					"timing": "/text/18/chap1804.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.IV. Light in the Dream"
+					"subtitle": "Tx.18.IV. Light in the Dream"
 				},
 				{
-					"url": "chap1805/",
+					"url": "chap1805",
 					"audio": "/text/18/chap1805.mp3",
 					"timing": "/text/18/chap1805.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.V. The Little Willingness"
+					"subtitle": "Tx.18.V. The Little Willingness"
 				},
 				{
-					"url": "chap1806/",
+					"url": "chap1806",
 					"audio": "/text/18/chap1806.mp3",
 					"timing": "/text/18/chap1806.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.VI. The Happy Dream"
+					"subtitle": "Tx.18.VI. The Happy Dream"
 				},
 				{
-					"url": "chap1807/",
+					"url": "chap1807",
 					"audio": "/text/18/chap1807.mp3",
 					"timing": "/text/18/chap1807.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.VII. Dreams and the Body"
+					"subtitle": "Tx.18.VII. Dreams and the Body"
 				},
 				{
-					"url": "chap1808/",
+					"url": "chap1808",
 					"audio": "/text/18/chap1808.mp3",
 					"timing": "/text/18/chap1808.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.VIII. I Need Do Nothing"
+					"subtitle": "Tx.18.VIII. I Need Do Nothing"
 				},
 				{
-					"url": "chap1809/",
+					"url": "chap1809",
 					"audio": "/text/18/chap1809.mp3",
 					"timing": "/text/18/chap1809.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.IX. The Purpose of the Body"
+					"subtitle": "Tx.18.IX. The Purpose of the Body"
 				},
 				{
-					"url": "chap1810/",
+					"url": "chap1810",
 					"audio": "/text/18/chap1810.mp3",
 					"timing": "/text/18/chap1810.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.X. The Delusional Thought System"
+					"subtitle": "Tx.18.X. The Delusional Thought System"
 				},
 				{
-					"url": "chap1811/",
+					"url": "chap1811",
 					"audio": "/text/18/chap1811.mp3",
 					"timing": "/text/18/chap1811.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.18.XI. The Passing of the Dream"
+					"subtitle": "Tx.18.XI. The Passing of the Dream"
 				}
 			]
 		},
 		{
 			"id": "Nineteen",
-			"base": "/t/acimoe/text/19/",
+			"url": "/t/acimoe/text/19",
 			"title": "Beyond the Body",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap1901/",
+					"url": "chap1901",
 					"audio": "/text/19/chap1901.mp3",
 					"timing": "/text/19/chap1901.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.19.I. Introduction"
+					"subtitle": "Tx.19.I. Introduction"
 				},
 				{
-					"url": "chap1902/",
+					"url": "chap1902",
 					"audio": "/text/19/chap1902.mp3",
 					"timing": "/text/19/chap1902.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.19.II. Healing and the Mind"
+					"subtitle": "Tx.19.II. Healing and the Mind"
 				},
 				{
-					"url": "chap1903/",
+					"url": "chap1903",
 					"audio": "/text/19/chap1903.mp3",
 					"timing": "/text/19/chap1903.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.19.III. Sin versus Error"
+					"subtitle": "Tx.19.III. Sin versus Error"
 				},
 				{
-					"url": "chap1904/",
+					"url": "chap1904",
 					"audio": "/text/19/chap1904.mp3",
 					"timing": "/text/19/chap1904.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.19.IV. The Unreality of Sin"
+					"subtitle": "Tx.19.IV. The Unreality of Sin"
 				},
 				{
-					"url": "chap1905/",
+					"url": "chap1905",
 					"audio": "/text/19/chap1905.mp3",
 					"timing": "/text/19/chap1905.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.19.V. Obstacles to Peace"
+					"subtitle": "Tx.19.V. Obstacles to Peace"
 				}
 			]
 		},
 		{
 			"id": "Twenty",
-			"base": "/t/acimoe/text/20/",
+			"url": "/t/acimoe/text/20",
 			"title": "The Promise of the Resurrection",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2001/",
+					"url": "chap2001",
 					"audio": "/text/20/chap2001.mp3",
 					"timing": "/text/20/chap2001.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.I. Introduction"
+					"subtitle": "Tx.20.I. Introduction"
 				},
 				{
-					"url": "chap2002/",
+					"url": "chap2002",
 					"audio": "/text/20/chap2002.mp3",
 					"timing": "/text/20/chap2002.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.II. Holy Week"
+					"subtitle": "Tx.20.II. Holy Week"
 				},
 				{
-					"url": "chap2003/",
+					"url": "chap2003",
 					"audio": "/text/20/chap2003.mp3",
 					"timing": "/text/20/chap2003.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.III. Thorns and Lilies"
+					"subtitle": "Tx.20.III. Thorns and Lilies"
 				},
 				{
-					"url": "chap2004/",
+					"url": "chap2004",
 					"audio": "/text/20/chap2004.mp3",
 					"timing": "/text/20/chap2004.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.IV. Sin as an Adjustment"
+					"subtitle": "Tx.20.IV. Sin as an Adjustment"
 				},
 				{
-					"url": "chap2005/",
+					"url": "chap2005",
 					"audio": "/text/20/chap2005.mp3",
 					"timing": "/text/20/chap2005.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.V. Entering the Ark"
+					"subtitle": "Tx.20.V. Entering the Ark"
 				},
 				{
-					"url": "chap2006/",
+					"url": "chap2006",
 					"audio": "/text/20/chap2006.mp3",
 					"timing": "/text/20/chap2006.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.VI. Heralds of Eternity"
+					"subtitle": "Tx.20.VI. Heralds of Eternity"
 				},
 				{
-					"url": "chap2007/",
+					"url": "chap2007",
 					"audio": "/text/20/chap2007.mp3",
 					"timing": "/text/20/chap2007.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.VII. The Temple of the Holy Spirit"
+					"subtitle": "Tx.20.VII. The Temple of the Holy Spirit"
 				},
 				{
-					"url": "chap2008/",
+					"url": "chap2008",
 					"audio": "/text/20/chap2008.mp3",
 					"timing": "/text/20/chap2008.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.VIII. The Consistency of Means and End"
+					"subtitle": "Tx.20.VIII. The Consistency of Means and End"
 				},
 				{
-					"url": "chap2009/",
+					"url": "chap2009",
 					"audio": "/text/20/chap2009.mp3",
 					"timing": "/text/20/chap2009.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.20.IX. The Vision of Sinlessness"
+					"subtitle": "Tx.20.IX. The Vision of Sinlessness"
 				}
 			]
 		},
 		{
 			"id": "Twenty One",
-			"base": "/t/acimoe/text/21/",
+			"url": "/t/acimoe/text/21",
 			"title": "The Inner Picture",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2101/",
+					"url": "chap2101",
 					"audio": "/text/21/chap2101.mp3",
 					"timing": "/text/21/chap2101.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.I. Introduction"
+					"subtitle": "Tx.21.I. Introduction"
 				},
 				{
-					"url": "chap2102/",
+					"url": "chap2102",
 					"audio": "/text/21/chap2102.mp3",
 					"timing": "/text/21/chap2102.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.II. The Imagined World"
+					"subtitle": "Tx.21.II. The Imagined World"
 				},
 				{
-					"url": "chap2103/",
+					"url": "chap2103",
 					"audio": "/text/21/chap2103.mp3",
 					"timing": "/text/21/chap2103.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.III. The Responsibility for Sight"
+					"subtitle": "Tx.21.III. The Responsibility for Sight"
 				},
 				{
-					"url": "chap2104/",
+					"url": "chap2104",
 					"audio": "/text/21/chap2104.mp3",
 					"timing": "/text/21/chap2104.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.IV. Faith, Belief and Vision"
+					"subtitle": "Tx.21.IV. Faith, Belief and Vision"
 				},
 				{
-					"url": "chap2105/",
+					"url": "chap2105",
 					"audio": "/text/21/chap2105.mp3",
 					"timing": "/text/21/chap2105.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.V. The Fear to Look Within"
+					"subtitle": "Tx.21.V. The Fear to Look Within"
 				},
 				{
-					"url": "chap2106/",
+					"url": "chap2106",
 					"audio": "/text/21/chap2106.mp3",
 					"timing": "/text/21/chap2106.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.VI. Reason and Perception"
+					"subtitle": "Tx.21.VI. Reason and Perception"
 				},
 				{
-					"url": "chap2107/",
+					"url": "chap2107",
 					"audio": "/text/21/chap2107.mp3",
 					"timing": "/text/21/chap2107.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.VII. Reason and Correction"
+					"subtitle": "Tx.21.VII. Reason and Correction"
 				},
 				{
-					"url": "chap2108/",
+					"url": "chap2108",
 					"audio": "/text/21/chap2108.mp3",
 					"timing": "/text/21/chap2108.json",
           "note": "No bullseye on 80",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.VIII. Perception and Wishes"
+					"subtitle": "Tx.21.VIII. Perception and Wishes"
 				},
 				{
-					"url": "chap2109/",
+					"url": "chap2109",
 					"audio": "/text/21/chap2109.mp3",
 					"timing": "/text/21/chap2109.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.21.IX. The Inner Shift"
+					"subtitle": "Tx.21.IX. The Inner Shift"
 				}
 			]
 		},
 		{
 			"id": "Twenty Two",
-			"base": "/t/acimoe/text/22/",
+			"url": "/t/acimoe/text/22",
 			"title": "Salvation and the Holy Relationship",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2201/",
+					"url": "chap2201",
 					"audio": "/text/22/chap2201.mp3",
 					"timing": "/text/22/chap2201.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.I. Introduction"
+					"subtitle": "Tx.22.I. Introduction"
 				},
 				{
-					"url": "chap2202/",
+					"url": "chap2202",
 					"audio": "/text/22/chap2202.mp3",
 					"timing": "/text/22/chap2202.json",
           "note": "paragraph 9 is incompletely read",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.II. The Message of the Holy Relationship"
+					"subtitle": "Tx.22.II. The Message of the Holy Relationship"
 				},
 				{
-					"url": "chap2203/",
+					"url": "chap2203",
 					"audio": "/text/22/chap2203.mp3",
 					"timing": "/text/22/chap2203.json",
           "note": "paragraph 24 is partially unread",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.III. Your Brother’s Sinlessness"
+					"subtitle": "Tx.22.III. Your Brother’s Sinlessness"
 				},
 				{
-					"url": "chap2204/",
+					"url": "chap2204",
 					"audio": "/text/22/chap2204.mp3",
 					"timing": "/text/22/chap2204.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.IV. Reason and the Holy Relationship"
+					"subtitle": "Tx.22.IV. Reason and the Holy Relationship"
 				},
 				{
-					"url": "chap2205/",
+					"url": "chap2205",
 					"audio": "/text/22/chap2205.mp3",
 					"timing": "/text/22/chap2205.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.V. The Branching of the Road"
+					"subtitle": "Tx.22.V. The Branching of the Road"
 				},
 				{
-					"url": "chap2206/",
+					"url": "chap2206",
 					"audio": "/text/22/chap2206.mp3",
 					"timing": "/text/22/chap2206.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.VI. Weakness and Defensiveness"
+					"subtitle": "Tx.22.VI. Weakness and Defensiveness"
 				},
 				{
-					"url": "chap2207/",
+					"url": "chap2207",
 					"audio": "/text/22/chap2207.mp3",
 					"timing": "/text/22/chap2207.json",
           "note": "paragraph 52 is unread",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.22.VII. Freedom and the Holy Spirit"
+					"subtitle": "Tx.22.VII. Freedom and the Holy Spirit"
 				}
 			]
 		},
 		{
 			"id": "Twenty Three",
-			"base": "/t/acimoe/text/23/",
+			"url": "/t/acimoe/text/23",
 			"title": "The War Against Yourself",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2301/",
+					"url": "chap2301",
 					"audio": "/text/23/chap2301.mp3",
 					"timing": "/text/23/chap2301.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.23.I. Introduction"
+					"subtitle": "Tx.23.I. Introduction"
 				},
 				{
-					"url": "chap2302/",
+					"url": "chap2302",
 					"audio": "/text/23/chap2302.mp3",
 					"timing": "/text/23/chap2302.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.23.II. The Irreconcilable Beliefs"
+					"subtitle": "Tx.23.II. The Irreconcilable Beliefs"
 				},
 				{
-					"url": "chap2303/",
+					"url": "chap2303",
 					"audio": "/text/23/chap2303.mp3",
 					"timing": "/text/23/chap2303.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.23.III. The “Laws” of Chaos"
+					"subtitle": "Tx.23.III. The “Laws” of Chaos"
 				},
 				{
-					"url": "chap2304/",
+					"url": "chap2304",
 					"audio": "/text/23/chap2304.mp3",
 					"timing": "/text/23/chap2304.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.23.IV. Salvation without Compromise"
+					"subtitle": "Tx.23.IV. Salvation without Compromise"
 				},
 				{
-					"url": "chap2305/",
+					"url": "chap2305",
 					"audio": "/text/23/chap2305.mp3",
 					"timing": "/text/23/chap2305.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.23.V. The Fear of Life"
+					"subtitle": "Tx.23.V. The Fear of Life"
 				}
 			]
 		},
 		{
 			"id": "Twenty Four",
-			"base": "/t/acimoe/text/24/",
+			"url": "/t/acimoe/text/24",
 			"title": "Specialness and Separation",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2401/",
+					"url": "chap2401",
 					"audio": "/text/24/chap2401.mp3",
 					"timing": "/text/24/chap2401.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.I. Introduction"
+					"subtitle": "Tx.24.I. Introduction"
 				},
 				{
-					"url": "chap2402/",
+					"url": "chap2402",
 					"audio": "/text/24/chap2402.mp3",
 					"timing": "/text/24/chap2402.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.II. Specialness as a Substitute for Love"
+					"subtitle": "Tx.24.II. Specialness as a Substitute for Love"
 				},
 				{
-					"url": "chap2403/",
+					"url": "chap2403",
 					"audio": "/text/24/chap2403.mp3",
 					"timing": "/text/24/chap2403.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.III. The Treachery of Specialness"
+					"subtitle": "Tx.24.III. The Treachery of Specialness"
 				},
 				{
-					"url": "chap2404/",
+					"url": "chap2404",
 					"audio": "/text/24/chap2404.mp3",
 					"timing": "/text/24/chap2404.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.IV. The Forgiveness of Specialness"
+					"subtitle": "Tx.24.IV. The Forgiveness of Specialness"
 				},
 				{
-					"url": "chap2405/",
+					"url": "chap2405",
 					"audio": "/text/24/chap2405.mp3",
 					"timing": "/text/24/chap2405.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.V. Specialness and Salvation"
+					"subtitle": "Tx.24.V. Specialness and Salvation"
 				},
 				{
-					"url": "chap2406/",
+					"url": "chap2406",
 					"audio": "/text/24/chap2406.mp3",
 					"timing": "/text/24/chap2406.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.VI. The Resolution of the Dream"
+					"subtitle": "Tx.24.VI. The Resolution of the Dream"
 				},
 				{
-					"url": "chap2407/",
+					"url": "chap2407",
 					"audio": "/text/24/chap2407.mp3",
 					"timing": "/text/24/chap2407.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.VII. Salvation from Fear"
+					"subtitle": "Tx.24.VII. Salvation from Fear"
 				},
 				{
-					"url": "chap2408/",
+					"url": "chap2408",
 					"audio": "/text/24/chap2408.mp3",
 					"timing": "/text/24/chap2408.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.24.VIII. The Meeting Place"
+					"subtitle": "Tx.24.VIII. The Meeting Place"
 				}
 			]
 		},
 		{
 			"id": "Twenty Five",
-			"base": "/t/acimoe/text/25/",
+			"url": "/t/acimoe/text/25",
 			"title": "The Remedy",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2501/",
+					"url": "chap2501",
 					"audio": "/text/25/chap2501.mp3",
 					"timing": "/text/25/chap2501.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.I. Introduction"
+					"subtitle": "Tx.25.I. Introduction"
 				},
 				{
-					"url": "chap2502/",
+					"url": "chap2502",
 					"audio": "/text/25/chap2502.mp3",
 					"timing": "/text/25/chap2502.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.II. The Appointed Task"
+					"subtitle": "Tx.25.II. The Appointed Task"
 				},
 				{
-					"url": "chap2503/",
+					"url": "chap2503",
 					"audio": "/text/25/chap2503.mp3",
 					"timing": "/text/25/chap2503.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.III. The Savior from the Dark"
+					"subtitle": "Tx.25.III. The Savior from the Dark"
 				},
 				{
-					"url": "chap2504/",
+					"url": "chap2504",
 					"audio": "/text/25/chap2504.mp3",
 					"timing": "/text/25/chap2504.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.IV. The Fundamental Law of Perception"
+					"subtitle": "Tx.25.IV. The Fundamental Law of Perception"
 				},
 				{
-					"url": "chap2505/",
+					"url": "chap2505",
 					"audio": "/text/25/chap2505.mp3",
 					"timing": "/text/25/chap2505.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.V. The Joining of Minds"
+					"subtitle": "Tx.25.V. The Joining of Minds"
 				},
 				{
-					"url": "chap2506/",
+					"url": "chap2506",
 					"audio": "/text/25/chap2506.mp3",
 					"timing": "/text/25/chap2506.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.VI. The State of Sinlessness"
+					"subtitle": "Tx.25.VI. The State of Sinlessness"
 				},
 				{
-					"url": "chap2507/",
+					"url": "chap2507",
 					"audio": "/text/25/chap2507.mp3",
 					"timing": "/text/25/chap2507.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.VII. The Special Function"
+					"subtitle": "Tx.25.VII. The Special Function"
 				},
 				{
-					"url": "chap2508/",
+					"url": "chap2508",
 					"audio": "/text/25/chap2508.mp3",
 					"timing": "/text/25/chap2508.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.VIII. Commuting the Sentence"
+					"subtitle": "Tx.25.VIII. Commuting the Sentence"
 				},
 				{
-					"url": "chap2509/",
+					"url": "chap2509",
 					"audio": "/text/25/chap2509.mp3",
 					"timing": "/text/25/chap2509.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.IX. The Principle of Salvation"
+					"subtitle": "Tx.25.IX. The Principle of Salvation"
 				},
 				{
-					"url": "chap2510/",
+					"url": "chap2510",
 					"audio": "/text/25/chap2510.mp3",
 					"timing": "/text/25/chap2510.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.25.X. The Justice of Heaven"
+					"subitle": "Tx.25.X. The Justice of Heaven"
 				}
 			]
 		},
 		{
 			"id": "Twenty Six",
-			"base": "/t/acimoe/text/26/",
+			"url": "/t/acimoe/text/26",
 			"title": "The Transition",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2601/",
+					"url": "chap2601",
 					"audio": "/text/26/chap2601.mp3",
 					"timing": "/text/26/chap2601.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.I. Introduction"
+					"subtitle": "Tx.26.I. Introduction"
 				},
 				{
-					"url": "chap2602/",
+					"url": "chap2602",
 					"audio": "/text/26/chap2602.mp3",
 					"timing": "/text/26/chap2602.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.II. The 'Sacrifice' of Oneness"
+					"subtitle": "Tx.26.II. The 'Sacrifice' of Oneness"
 				},
 				{
-					"url": "chap2603/",
+					"url": "chap2603",
 					"audio": "/text/26/chap2603.mp3",
 					"timing": "/text/26/chap2603.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.III. The Forms of Error"
+					"subtitle": "Tx.26.III. The Forms of Error"
 				},
 				{
-					"url": "chap2604/",
+					"url": "chap2604",
 					"audio": "/text/26/chap2604.mp3",
 					"timing": "/text/26/chap2604.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.IV. The Borderland"
+					"subtitle": "Tx.26.IV. The Borderland"
 				},
 				{
-					"url": "chap2605/",
+					"url": "chap2605",
 					"audio": "/text/26/chap2605.mp3",
 					"timing": "/text/26/chap2605.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.V. Where Sin Has Left"
+					"subtitle": "Tx.26.V. Where Sin Has Left"
 				},
 				{
-					"url": "chap2606/",
+					"url": "chap2606",
 					"audio": "/text/26/chap2606.mp3",
 					"timing": "/text/26/chap2606.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.VI. The Little Hindrance"
+					"subtitle": "Tx.26.VI. The Little Hindrance"
 				},
 				{
-					"url": "chap2607/",
+					"url": "chap2607",
 					"audio": "/text/26/chap2607.mp3",
 					"timing": "/text/26/chap2607.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.VII. The Appointed Friend"
+					"subtitle": "Tx.26.VII. The Appointed Friend"
 				},
 				{
-					"url": "chap2608/",
+					"url": "chap2608",
 					"audio": "/text/26/chap2608.mp3",
 					"timing": "/text/26/chap2608.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.VIII. Review of Principles"
+					"subtitle": "Tx.26.VIII. Review of Principles"
 				},
 				{
-					"url": "chap2609/",
+					"url": "chap2609",
 					"audio": "/text/26/chap2609.mp3",
 					"timing": "/text/26/chap2609.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.IX. The Immediacy of Salvation"
+					"subtitle": "Tx.26.IX. The Immediacy of Salvation"
 				},
 				{
-					"url": "chap2610/",
+					"url": "chap2610",
 					"audio": "/text/26/chap2610.mp3",
 					"timing": "/text/26/chap2610.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.X. For They Have Come"
+					"subtitle": "Tx.26.X. For They Have Come"
 				},
 				{
-					"url": "chap2611/",
+					"url": "chap2611",
 					"audio": "/text/26/chap2611.mp3",
 					"timing": "/text/26/chap2611.json",
           "timer": "msullivan2k@gmail.com",
-					"title": "Tx.26.XI. The Remaining Task"
+					"subtitle": "Tx.26.XI. The Remaining Task"
 				}
 			]
 		},
 		{
 			"id": "Twenty Seven",
-			"base": "/t/acimoe/text/27/",
+			"url": "/t/acimoe/text/27",
 			"title": "The Body and the Dream",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2701/",
+					"url": "chap2701",
 					"audio": "/text/27/chap2701.mp3",
 					"timing": "/text/27/chap2701.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.I. Introduction"
+					"subtitle": "Tx.27.I. Introduction"
 				},
 				{
-					"url": "chap2702/",
+					"url": "chap2702",
 					"audio": "/text/27/chap2702.mp3",
 					"timing": "/text/27/chap2702.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.II. The Picture of Crucifixion"
+					"subtitle": "Tx.27.II. The Picture of Crucifixion"
 				},
 				{
-					"url": "chap2703/",
+					"url": "chap2703",
 					"audio": "/text/27/chap2703.mp3",
 					"timing": "/text/27/chap2703.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.III. The Fear of Healing"
+					"subtitle": "Tx.27.III. The Fear of Healing"
 				},
 				{
-					"url": "chap2704/",
+					"url": "chap2704",
 					"audio": "/text/27/chap2704.mp3",
 					"timing": "/text/27/chap2704.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.IV. The Symbol of the Impossible"
+					"subtitle": "Tx.27.IV. The Symbol of the Impossible"
 				},
 				{
-					"url": "chap2705/",
+					"url": "chap2705",
 					"audio": "/text/27/chap2705.mp3",
 					"timing": "/text/27/chap2705.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.V. The Quiet Answer"
+					"subtitle": "Tx.27.V. The Quiet Answer"
 				},
 				{
-					"url": "chap2706/",
+					"url": "chap2706",
 					"audio": "/text/27/chap2706.mp3",
 					"timing": "/text/27/chap2706.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.VI. The Healing Example"
+					"subtitle": "Tx.27.VI. The Healing Example"
 				},
 				{
-					"url": "chap2707/",
+					"url": "chap2707",
 					"audio": "/text/27/chap2707.mp3",
 					"timing": "/text/27/chap2707.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.VII. The Purpose of Pain"
+					"subtitle": "Tx.27.VII. The Purpose of Pain"
 				},
 				{
-					"url": "chap2708/",
+					"url": "chap2708",
 					"audio": "/text/27/chap2708.mp3",
 					"timing": "/text/27/chap2708.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.VIII. The Illusion of Suffering"
+					"subtitle": "Tx.27.VIII. The Illusion of Suffering"
 				},
 				{
-					"url": "chap2709/",
+					"url": "chap2709",
 					"audio": "/text/27/chap2709.mp3",
 					"timing": "/text/27/chap2709.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.27.IX. The 'Hero' of the Dream"
+					"subtitle": "Tx.27.IX. The 'Hero' of the Dream"
 				}
 			]
 		},
 		{
 			"id": "Twenty Eight",
-			"base": "/t/acimoe/text/28/",
+			"url": "/t/acimoe/text/28",
 			"title": "The Undoing of Fear",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2801/",
+					"url": "chap2801",
           "timer": "ancientrussian@gmail.com",
 					"audio": "/text/28/chap2801.mp3",
 					"timing": "/text/28/chap2801.json",
-					"title": "Tx.28.I. Introduction"
+					"subtitle": "Tx.28.I. Introduction"
 				},
 				{
-					"url": "chap2802/",
+					"url": "chap2802",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2802.json",
 					"audio": "/text/28/chap2802.mp3",
-					"title": "Tx.28.II. The Present Memory"
+					"subtitle": "Tx.28.II. The Present Memory"
 				},
 				{
-					"url": "chap2803/",
+					"url": "chap2803",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2803.json",
 					"audio": "/text/28/chap2803.mp3",
-					"title": "Tx.28.III. Reversing Effect and Cause"
+					"subtitle": "Tx.28.III. Reversing Effect and Cause"
 				},
 				{
-					"url": "chap2804/",
+					"url": "chap2804",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2804.json",
 					"audio": "/text/28/chap2804.mp3",
-					"title": "Tx.28.IV. The Agreement to Join"
+					"subtitle": "Tx.28.IV. The Agreement to Join"
 				},
 				{
-					"url": "chap2805/",
+					"url": "chap2805",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2805.json",
 					"audio": "/text/28/chap2805.mp3",
-					"title": "Tx.28.V. The Greater Joining"
+					"subtitle": "Tx.28.V. The Greater Joining"
 				},
 				{
-					"url": "chap2806/",
+					"url": "chap2806",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2806.json",
 					"audio": "/text/28/chap2806.mp3",
-					"title": "Tx.28.VI. The Alternate to Dreams of Fear"
+					"subtitle": "Tx.28.VI. The Alternate to Dreams of Fear"
 				},
 				{
-					"url": "chap2807/",
+					"url": "chap2807",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2807.json",
 					"audio": "/text/28/chap2807.mp3",
-					"title": "Tx.28.VII. The Secret Vows"
+					"subtitle": "Tx.28.VII. The Secret Vows"
 				},
 				{
-					"url": "chap2808/",
+					"url": "chap2808",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/28/chap2808.json",
 					"audio": "/text/28/chap2808.mp3",
-					"title": "Tx.28.VIII. The Beautiful Relationship"
+					"subtitle": "Tx.28.VIII. The Beautiful Relationship"
 				}
 			]
 		},
 		{
 			"id": "Twenty Nine",
-			"base": "/t/acimoe/text/29/",
+			"url": "/t/acimoe/text/29",
 			"title": "The Awakening",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap2901/",
+					"url": "chap2901",
           "timer": "ancientrussian@gmail.com",
 					"audio": "/text/29/chap2901.mp3",
 					"timing": "/text/29/chap2901.json",
-					"title": "Tx.29.I. Introduction"
+					"subtitle": "Tx.29.I. Introduction"
 				},
 				{
-					"url": "chap2902/",
+					"url": "chap2902",
           "timer": "ancientrussian@gmail.com",
 					"audio": "/text/29/chap2902.mp3",
 					"timing": "/text/29/chap2902.json",
-					"title": "Tx.29.II. The Closing of the Gap"
+					"subtitle": "Tx.29.II. The Closing of the Gap"
 				},
 				{
-					"url": "chap2903/",
+					"url": "chap2903",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/29/chap2903.json",
 					"audio": "/text/29/chap2903.mp3",
-					"title": "Tx.29.III. The Coming of the Guest"
+					"subtitle": "Tx.29.III. The Coming of the Guest"
 				},
 				{
-					"url": "chap2904/",
+					"url": "chap2904",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/29/chap2904.json",
 					"audio": "/text/29/chap2904.mp3",
-					"title": "Tx.29.IV. God’s Witnesses"
+					"subtitle": "Tx.29.IV. God’s Witnesses"
 				},
 				{
-					"url": "chap2905/",
+					"url": "chap2905",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/29/chap2905.json",
 					"audio": "/text/29/chap2905.mp3",
-					"title": "Tx.29.V. Dream Roles"
+					"subtitle": "Tx.29.V. Dream Roles"
 				},
 				{
-					"url": "chap2906/",
+					"url": "chap2906",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/29/chap2906.json",
 					"audio": "/text/29/chap2906.mp3",
-					"title": "Tx.29.VI. The Changeless Dwelling-Place"
+					"subtitle": "Tx.29.VI. The Changeless Dwelling-Place"
 				},
 				{
-					"url": "chap2907/",
+					"url": "chap2907",
           "timer": "ancientrussian@gmail.com",
 					"timing": "/text/29/chap2907.json",
 					"audio": "/text/29/chap2907.mp3",
-					"title": "Tx.29.VII. Forgiveness and Peace"
+					"subtitle": "Tx.29.VII. Forgiveness and Peace"
 				},
 				{
-					"url": "chap2908/",
+					"url": "chap2908",
 					"audio": "/text/29/chap2908.mp3",
 					"timing": "/text/29/chap2908.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.29.VIII. The Lingering Illusion"
+					"subtitle": "Tx.29.VIII. The Lingering Illusion"
 				},
 				{
-					"url": "chap2909/",
+					"url": "chap2909",
 					"audio": "/text/29/chap2909.mp3",
 					"timing": "/text/29/chap2909.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.29.IX. Christ and the Anti-Christ"
+					"subtitle": "Tx.29.IX. Christ and the Anti-Christ"
 				},
 				{
-					"url": "chap2910/",
+					"url": "chap2910",
 					"audio": "/text/29/chap2910.mp3",
 					"timing": "/text/29/chap2910.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.29.X. The Forgiving Dream"
+					"subtitle": "Tx.29.X. The Forgiving Dream"
 				}
 			]
 		},
 		{
 			"id": "Thirty",
-			"base": "/t/acimoe/text/30/",
+			"url": "/t/acimoe/text/30",
 			"title": "The New Beginning",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap3001/",
+					"url": "chap3001",
 					"audio": "/text/30/chap3001.mp3",
 					"timing": "/text/30/chap3001.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.I. Introduction"
+					"subtitle": "Tx.30.I. Introduction"
 				},
 				{
-					"url": "chap3002/",
+					"url": "chap3002",
 					"audio": "/text/30/chap3002.mp3",
 					"timing": "/text/30/chap3002.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.II. Rules for Decision"
+					"subtitle": "Tx.30.II. Rules for Decision"
 				},
 				{
-					"url": "chap3003/",
+					"url": "chap3003",
 					"audio": "/text/30/chap3003.mp3",
 					"timing": "/text/30/chap3003.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.III. Freedom of Will"
+					"subtitle": "Tx.30.III. Freedom of Will"
 				},
 				{
-					"url": "chap3004/",
+					"url": "chap3004",
 					"audio": "/text/30/chap3004.mp3",
 					"timing": "/text/30/chap3004.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.IV. Beyond All Idols"
+					"subtitle": "Tx.30.IV. Beyond All Idols"
 				},
 				{
-					"url": "chap3005/",
+					"url": "chap3005",
 					"audio": "/text/30/chap3005.mp3",
 					"timing": "/text/30/chap3005.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.V. The Truth Behind Illusions"
+					"subtitle": "Tx.30.V. The Truth Behind Illusions"
 				},
 				{
-					"url": "chap3006/",
+					"url": "chap3006",
 					"audio": "/text/30/chap3006.mp3",
 					"timing": "/text/30/chap3006.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.VI. The Only Purpose"
+					"subtitle": "Tx.30.VI. The Only Purpose"
 				},
 				{
-					"url": "chap3007/",
+					"url": "chap3007",
 					"audio": "/text/30/chap3007.mp3",
 					"timing": "/text/30/chap3007.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.VII. The Justification for Forgiveness"
+					"subtitle": "Tx.30.VII. The Justification for Forgiveness"
 				},
 				{
-					"url": "chap3008/",
+					"url": "chap3008",
 					"audio": "/text/30/chap3008.mp3",
 					"timing": "/text/30/chap3008.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.VIII. The New Interpretation"
+					"subtitle": "Tx.30.VIII. The New Interpretation"
 				},
 				{
-					"url": "chap3009/",
+					"url": "chap3009",
 					"audio": "/text/30/chap3009.mp3",
 					"timing": "/text/30/chap3009.json",
           "timer": "ancientrussian@gmail.com",
-					"title": "Tx.30.IX. Changeless Reality"
+					"subtitle": "Tx.30.IX. Changeless Reality"
 				}
 			]
 		},
 		{
 			"id": "Thirty One",
-			"base": "/t/acimoe/text/31/",
+			"url": "/t/acimoe/text/31",
 			"title": "The Simplicity of Salvation",
-			"sections": [
+			"contents": [
 				{
-					"url": "chap3101/",
+					"url": "chap3101",
 					"audio": "/text/31/chap3101.mp3",
 					"timing": "/text/31/chap3101.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.I. Introduction"
+					"subtitle": "Tx.31.I. Introduction"
 				},
 				{
-					"url": "chap3102/",
+					"url": "chap3102",
 					"audio": "/text/31/chap3102.mp3",
 					"timing": "/text/31/chap3102.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.II. The Illusion of an Enemy"
+					"subtitle": "Tx.31.II. The Illusion of an Enemy"
 				},
 				{
-					"url": "chap3103/",
+					"url": "chap3103",
 					"audio": "/text/31/chap3103.mp3",
 					"timing": "/text/31/chap3103.json",
           "timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.III. The Self-A31used"
+					"subtitle": "Tx.31.III. The Self-A31used"
 				},
 				{
-					"url": "chap3104/",
+					"url": "chap3104",
 					"audio": "/text/31/chap3104.mp3",
 					"timing": "/text/31/chap3104.json",
 					"timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.IV. The Real Alternative"
+					"subtitle": "Tx.31.IV. The Real Alternative"
 				},
 				{
-					"url": "chap3105/",
+					"url": "chap3105",
 					"audio": "/text/31/chap3105.mp3",
 					"timing": "/text/31/chap3105.json",
 					"timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.V. Self-Concept versus Self"
+					"subtitle": "Tx.31.V. Self-Concept versus Self"
 				},
 				{
-					"url": "chap3106/",
+					"url": "chap3106",
 					"audio": "/text/31/chap3106.mp3",
 					"timing": "/text/31/chap3106.json",
 					"timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.VI. Recognizing the Spirit"
+					"subtitle": "Tx.31.VI. Recognizing the Spirit"
 				},
 				{
-					"url": "chap3107/",
+					"url": "chap3107",
 					"audio": "/text/31/chap3107.mp3",
 					"timing": "/text/31/chap3107.json",
 					"timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.VII. The Savior’s Vision"
+					"subtitle": "Tx.31.VII. The Savior’s Vision"
 				},
 				{
-					"url": "chap3108/",
+					"url": "chap3108",
 					"audio": "/text/31/chap3108.mp3",
 					"timing": "/text/31/chap3108.json",
 					"timer": "onemillionchrists@gmail.com",
-					"title": "Tx.31.VIII. Choose Once Again"
+					"subtitle": "Tx.31.VIII. Choose Once Again"
 				}
 			]
 		}
