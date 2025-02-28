@@ -189,8 +189,22 @@ function flatten(data) {
 
       data is passed when building a list of bookmarks for the bookmark modal
 */
-export function getPageInfo(pageKey, data = false) {
-  let decodedKey = transcript.decodeKey(pageKey);
+export function getPageInfo(page, data = false) {
+
+  let pageKey;
+  let decodedKey;
+
+  /*
+   * Convert arg: page to pageKey if it is passed in as a url
+   */
+  if (typeof page === "string" && page.startsWith("/t/")) {
+    pageKey = transcript.genPageKey(page);
+  }
+  else {
+    pageKey = page;
+  }
+
+  decodedKey = transcript.decodeKey(pageKey);
   let info = {pageKey: pageKey, source: g_sourceInfo.title, bookId: decodedKey.bookId};
 
   if (data) {
@@ -248,6 +262,12 @@ export function getPageInfo(pageKey, data = false) {
             case "manual":
               info.title = data.contents[decodedKey.uid - 1].title;
               info.url = `/t/acimoe/${decodedKey.bookId}${data.contents[decodedKey.uid - 1].url}`;
+
+              //Rick added Feb 23, 2025
+              info.audio = data.contents[decodedKey.uid - 1].audio;
+              info.timing = data.contents[decodedKey.uid - 1].timing;
+              info.audioBase = g_sourceInfo.audioBase;
+
               break;
             case "workbook":
               flat = g_sourceInfo.getValue(flat_store_id);
@@ -259,6 +279,12 @@ export function getPageInfo(pageKey, data = false) {
 
               info.title = `${unit.lesson?unit.lesson + ". ":""}${unit.title}`;
               info.url = `/t/acimoe/${decodedKey.bookId}/${unit.url}`;
+
+              //Rick added Feb 23, 2025
+              info.audio = unit.audio;
+              info.timing = unit.timing;
+              info.audioBase = g_sourceInfo.audioBase;
+
               break;
             case "text":
               flat = g_sourceInfo.getValue(flat_store_id);
@@ -268,6 +294,11 @@ export function getPageInfo(pageKey, data = false) {
               }
               unit = flat[decodedKey.uid - 1];
               chapter = unit.url.substr(4,2);
+
+              //Rick added Feb 23, 2025
+              info.audio = unit.audio;
+              info.timing = unit.timing;
+              info.audioBase = g_sourceInfo.audioBase;
 
               info.title = `${unit.title}`;
               info.url = `/t/acimoe/${decodedKey.bookId}/${chapter}/${unit.url}`;

@@ -338,7 +338,8 @@ function highlightCurrentTranscript(bid, setNextPrev = true) {
         manualNextPrev($el, 30);
         break;
       case "acq":
-        manualNextPrev($el, 6);
+        //5 acq pages
+        manualNextPrev($el, 5);
         break;
     }
   }

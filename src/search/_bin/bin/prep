@@ -1,23 +1,32 @@
 #!/bin/bash
+#
+# Convert markdown files to search tokens
+#
 
 workingDir=`pwd`
 scriptDir=`dirname $0`
 scriptName=`basename $0`
 
-unitDir="/Users/rmercer/Projects/cmi/site/cmi-oe"
+# project moved, old location
+# unitDir="/Users/rmercer/Projects/cmi/site/cmi-oe"
+unitDir="/Users/rmercer/Projects/cmi/site/cmi-sources/cmi-oe"
 awkFile="acim.awk"
+
+# look for paragraphs with '!' per user request.
+bang="bang.awk"
 debug=0
 
 source="acimoe"
 
 function syntax {
   echo "prep -b <book> file"
-  echo " ex: prep -b manual chap01"
+  echo " ex: prep [-a] -b manual chap01"
   exit 1
 }
 
-while getopts db: args; do
+while getopts adb: args; do
     case $args in
+        a) awkFile=$bang;;
         b) book=$OPTARG;;
         d) debug=1;;
         *) syntax;;
@@ -41,7 +50,11 @@ if [ $debug == 1 ]; then
   outputFile=${outputFile}.json.debug
   (gawk -f ${scriptDir}/${awkFile} -v debug=1 -v source=$source -v book=$book -v section=$section -v idx=$idx -v unit=$unit ${unitFileName} > $outputFile)
 else
-  outputFile=${outputFile}.json
+  if [ $awkFile == $bang ]; then
+    outputFile=${outputFile}.bang
+  else
+    outputFile=${outputFile}.json
+  fi
   #echo "gawk -f ${scriptDir}/${awkFile} -v debug=0 -v source=$source -v book=$book -v section=$section -v idx=$idx -v unit=$unit ${unitFileName} > $outputFile"
   (gawk -f ${scriptDir}/${awkFile} -v debug=0 -v source=$source -v book=$book -v section=$section -v idx=$idx -v unit=$unit ${unitFileName} > $outputFile)
 fi
